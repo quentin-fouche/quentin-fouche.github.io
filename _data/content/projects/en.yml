@@ -259,7 +259,7 @@ page_data:
         dans 22 889 thèses de science, disponibles en ligne sur le site d’archive ouverte HAL
         (https://hal.archives-ouvertes.fr). Il est composé de 1 821 132 références et de quatre
         variables : l’identifiant de la thèse dans HAL (i.e., son numéro TEL), la discipline de la
-        thèse, le type de la référence, et son titre (Tableau·1). Toutes ces variables contiennent
+        thèse, le type de la référence, et son titre (Tableau&nbsp;1). Toutes ces variables contiennent
         des données textuelles. Les disciplines sont catégorisées selon les groupes définis par [le
         conseil national des universités](https://www.galaxie.enseignementsup-recherche.gouv.fr/ensup/pdf/qualification/sections.pdf). Onze d’entre eux sont représentés dans ce
         jeu de données : les groupes I à X et le groupe pharmacie (dans la suite du texte, ces
@@ -269,9 +269,10 @@ page_data:
         film et communication personnelle.
         
         **Tableau 1.** Description des variables analysées
+        {:data-align="center"}
         
         | Variable                  | Nombre de valeurs uniques | Données manquantes (%) |
-        | ------------------------- | :-----------------------: | ---------------------: |
+        | :-----------------------: | :-----------------------: | :--------------------: |
         | Identifiant de la thèse   | 22899                     | 0                      |
         | Discipline de la thèse    | 11                        | 0                      |
         | Type de la référence      | 12                        | 14.8                   |
@@ -284,9 +285,10 @@ page_data:
         thèses n’ont pas été prises en compte dans les analyses.
 
         **Tableau 2.** Nombre de thèses présentes dans le jeu de données par discipline
+        {:data-align="center"}
         
         | Discipline | Nombre de thèses |
-        | ---------- | ---------------: |
+        | :--------: | :--------------: |
         | I          | 229              |
         | II         | 1359             |
         | III        | 654              |
@@ -334,10 +336,12 @@ page_data:
         
         **Figure 1.** Répartition des valeurs présentes (en noir) et manquantes (en blanc) dans le
         type et le titre des références, pour toutes les références présentes dans le jeu de données.
+        {:data-align="center"}
         
         **Figure 2.** Nombre de valeurs manquantes dans le type et le titre des références. Les
         points colorés en noir indiquent dans quelle combinaison de variables sont situées les
         valeurs manquantes.
+        {:data-align="center"}
         
         ***
         
@@ -354,6 +358,7 @@ page_data:
         **Figure 3.** Nombre moyen de références citées par thèse en fonction de la discipline de
         la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne. Le nombre de
         thèses dans chaque discipline est donné dans le Tableau 2.
+        {:data-align="center"}
         
         ##### Type de référence citée et discipline
         La Figure 4 représente le pourcentage moyen de références citées par thèse en fonction
@@ -377,6 +382,7 @@ page_data:
         le Tableau 2. La catégorie autre regroupe les types suivants : papiers de conférence,
         thèses, rapports de stage, pages web, manuscrits non publiés, brevets, interviews, films et
         communications personnelles.
+        {:data-align="center"}
         
         ##### Nombre de références citées par thèse et type de référence
         La relation entre le pourcentage de livres et chapitres de livres cités dans une thèse et
