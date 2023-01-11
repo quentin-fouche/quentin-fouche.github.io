@@ -15,12 +15,9 @@ page_data:
     - title: "Example"
       type: id_example
       color: "gray"
-    - title: "Picture"
-      type: id_picture
+    - title: "Rapports"
+      type: id_rapports
       color: "#62b462"
-    - title: "Quote"
-      type: id_quote
-      color: "#2FD0ED"
 
   list:
     # example
@@ -172,7 +169,7 @@ page_data:
         ```
 
     # Projet en autonomie
-    - type: id_example
+    - type: id_rapports
       project_name: "Projet en autonomie"
       project_excerpt: "Ce projet, réalisé en juillet et août 2022, consistait à analyser une base de données contenant les métadonnées de 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL. Le contenu ci-dessous présente le rapport rédigé à partir des résultats de ces analyses."
       img: ":project1_thumb.jpg"
