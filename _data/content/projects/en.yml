@@ -181,7 +181,9 @@ page_data:
       post: |
         # Variations inter-disciplinaires des pratiques de citation dans les thèses
         {:data-align="center"}
+        
         ***
+        
         ### Résumé
         Ce rapport présente une analyse des citations de références bibliographiques dans un
         corpus de 22 889 thèses électroniques, disponibles sur le site d’archive ouverte HAL.
@@ -195,7 +197,9 @@ page_data:
         de livres. Ces différences de pratique de citation entre les disciplines peuvent être reliées
         aux différences de normes dans la rédaction des publications scientifiques, ainsi qu’aux
         spécificités rhétoriques de chaque discipline.
+        
         ***
+        
         ### Introduction
         En sciences, citer les sources utilisées pour énoncer une idée, une méthodologie ou encore
         des résultats d’expériences, dans le cadre d’une communication écrite ou orale, est indispensable
@@ -246,14 +250,16 @@ page_data:
         élevée en sciences dures qu’en SHS, et inversement pour les livres et chapitres de livres ;
         (3) plus le nombre de références citées est faible, plus la proportion de livres et chapitres
         de livres cités parmi ces références est élevée.
+        
         ***
+        
         ### Méthodes
         ##### Présentation du jeu de données
         Le jeu de données analysé décrit les métadonnées des références bibliographiques citées
         dans 22 889 thèses de science, disponibles en ligne sur le site d’archive ouverte HAL
         (https://hal.archives-ouvertes.fr). Il est composé de 1 821 132 références et de quatre
         variables : l’identifiant de la thèse dans HAL (i.e., son numéro TEL), la discipline de la
-        thèse, le type de la référence, et son titre (Tableau 1). Toutes ces variables contiennent
+        thèse, le type de la référence, et son titre (Tableau·1). Toutes ces variables contiennent
         des données textuelles. Les disciplines sont catégorisées selon les groupes définis par [le
         conseil national des universités](https://www.galaxie.enseignementsup-recherche.gouv.fr/ensup/pdf/qualification/sections.pdf). Onze d’entre eux sont représentés dans ce
         jeu de données : les groupes I à X et le groupe pharmacie (dans la suite du texte, ces
@@ -262,7 +268,8 @@ page_data:
         conférence, thèse, rapport de stage, page web, manuscrit non publié, brevet, interview,
         film et communication personnelle.
         
-        ###### **Tableau 1.** Description des variables analysées
+        **Tableau 1.** Description des variables analysées
+        
         | Variable                  | Nombre de valeurs uniques | Données manquantes (%) |
         | ------------------------- | :-----------------------: | ---------------------: |
         | Identifiant de la thèse   | 22899                     | 0                      |
@@ -276,7 +283,8 @@ page_data:
         de thèses de pharmacie par rapport aux autres disciplines, les références citées dans ces
         thèses n’ont pas été prises en compte dans les analyses.
 
-        ###### **Tableau 2.** Nombre de thèses présentes dans le jeu de données par discipline
+        **Tableau 2.** Nombre de thèses présentes dans le jeu de données par discipline
+        
         | Discipline | Nombre de thèses |
         | ---------- | ---------------: |
         | I          | 229              |
@@ -324,13 +332,15 @@ page_data:
         SHS de celles de sciences dures. Toutes les analyses ont été réalisées avec le langage de
         programmation Python (v3.10.4). Le seuil de signicativité des tests a été fixé à α = 0.05.
         
-        ###### **Figure 1.** Répartition des valeurs présentes (en noir) et manquantes (en blanc) dans le
+        **Figure 1.** Répartition des valeurs présentes (en noir) et manquantes (en blanc) dans le
         type et le titre des références, pour toutes les références présentes dans le jeu de données.
         
-        ###### **Figure 2.** Nombre de valeurs manquantes dans le type et le titre des références. Les
+        **Figure 2.** Nombre de valeurs manquantes dans le type et le titre des références. Les
         points colorés en noir indiquent dans quelle combinaison de variables sont situées les
         valeurs manquantes.
+        
         ***
+        
         ### Résultats
         ##### Nombre de références citées par thèse et discipline
         Le nombre moyen de références citées par thèse est représenté dans la Figure 3. Ce nombre
@@ -341,7 +351,7 @@ page_data:
         Les doctorants des disciplines associées aux sciences dures citent en moyenne 10 à 35
         références de moins que ceux des SHS (i.e., entre 75 et 90 références par thèse).
         
-        ###### **Figure 3.** Nombre moyen de références citées par thèse en fonction de la discipline de
+        **Figure 3.** Nombre moyen de références citées par thèse en fonction de la discipline de
         la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne. Le nombre de
         thèses dans chaque discipline est donné dans le Tableau 2.
         
@@ -362,7 +372,7 @@ page_data:
         À l’inverse, le pourcentage de livres et chapitres de livres est plus élevé dans les disciplines
         de SHS (entre 33 et 60%) que dans celles de sciences dures (entre 6 et 24%).
         
-        ###### **Figure 4.** Pourcentage moyen de références citées par thèse en fonction de la discipline
+        **Figure 4.** Pourcentage moyen de références citées par thèse en fonction de la discipline
         et du type de référence. Le nombre de thèses dans chaque discipline est donné dans
         le Tableau 2. La catégorie autre regroupe les types suivants : papiers de conférence,
         thèses, rapports de stage, pages web, manuscrits non publiés, brevets, interviews, films et
@@ -388,7 +398,9 @@ page_data:
         de régression : y = 14.80 - 0.012x). Selon cette régression, le pourcentage de livres et
         chapitres cités diminuera en moyenne de 1.2% toutes les 100 références ajoutées dans la
         thèse. L’erreur standard résiduelle du modèle est de 13.32%.
+        
         ***
+        
         ### Discussion
         Les analyses présentées dans ce rapport ont démontré tout d’abord qu’il existe un lien
         significatif entre le nombre de références citées dans une thèse et la discipline de la thèse,
@@ -477,7 +489,9 @@ page_data:
         SHS ? Enfin, comme cela a été observé dans les articles scientifiques, des différences entre
         disciplines pourraient exister dans la manière dont les références sont reportées dans le
         texte de la thèse (Hyland, 1999).
+        
         ***
+        
         ### Références
         Cullars, J. M. (1998). Citation characteristics of English-language monographs in philosophy.
         Library & information science research 20 (1), 41-68. https://doi.org/10.1016/S0740-
