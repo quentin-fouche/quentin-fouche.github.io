@@ -607,23 +607,27 @@ page_data:
         <class 'pandas.core.frame.DataFrame'>  
         RangeIndex: 1821132 entries, 0 to 1821131  
         Data columns (total 5 columns):  
-         #   Column           Dtype   
-        ---  ------           -----  
-         0   discipline       object  
-         1   numéro TEL       object  
-         2   numéro citation  int64  
-         3   type             object  
-         4   titre            object  
+        
+        | #  | Column          | Dtype  |
+        | -: | --------------: | -----: |
+        | 0  | discipline      | object |
+        | 1  | numéro TEL      | object |
+        | 2  | numéro citation | int64  |
+        | 3  | type            | object | 
+        | 4  | titre           | object |
+        
         dtypes: int64(1), object(4)  
         memory usage: 69.5+ MB  
         None
 
-        Nombre de valeurs uniques par colonnes:  
-        discipline              11  
-        numéro TEL           22889  
-        numéro citation          1  
-        type                    12  
-        titre              1437703  
+        Nombre de valeurs uniques par colonnes:
+        
+        | discipline | 11 |
+        | numéro TEL | 22889 |
+        | numéro citation | 1 |
+        | type | 12 |
+        | titre | 1437703 |
+        
         dtype: int64
 
         Disciplines:  
