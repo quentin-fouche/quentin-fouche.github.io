@@ -18,6 +18,9 @@ page_data:
     - title: "Rapports"
       type: id_rapports
       color: "#62b462"
+    - title: "Notebooks"
+      type: id_notebooks
+      color: "#7495cf"
 
   list:
     # example
@@ -168,9 +171,9 @@ page_data:
           print(i)
         ```
 
-    # Projet en autonomie
+    # Projet en autonomie - Rapport
     - type: id_rapports
-      project_name: "Projet en autonomie"
+      project_name: "Projet en autonomie - Rapport"
       project_excerpt: "Ce projet, réalisé en juillet et août 2022, consistait à analyser une base de données contenant les métadonnées de 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL. Le contenu ci-dessous présente le rapport rédigé à partir des résultats de ces analyses."
       img: ":project1_thumb.jpg"
       img_title: "img title1"
@@ -530,3 +533,103 @@ page_data:
         Vallmitjana, N. et Sabaté, L. G. (2008). Citation analysis of Ph. D. dissertation references
         as a tool for collection management in an academic chemistry library. College & Research
         Libraries 69 (1), 72-82. https://doi.org/10.5860/crl.69.1.72
+
+
+    # Projet en autonomie - Notebook
+    - type: id_notebooks
+      project_name: "Projet en autonomie - Notebook"
+      project_excerpt: "Ce projet, réalisé en juillet et août 2022, consistait à analyser une base de données contenant les métadonnées de 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL. Le contenu ci-dessous présente le notebook contenant les analyses réalisées en Python."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-09-01"
+      post: |
+        ### Packages utilisés
+        
+        ```python
+        import pandas as pd
+        import numpy as np
+        import matplotlib.pyplot as plt
+        import matplotlib.patches as mpatches
+        import seaborn as sns
+        import itertools
+        from statsmodels.formula.api import ols
+        import missingno as msno
+        from upsetplot import plot, from_indicators
+        import statsmodels.api as sm
+        from scipy import stats
+        import scikit_posthocs as sp
+        ```
+        
+        ### Import du jeu de données
+        
+        ```python
+        biblio = pd.read_csv("Biblio_synthese.csv", low_memory = False, encoding = "latin-1")
+        ```
+        
+        ### Modifications mineures
+        
+        ```python
+        # Remplacement des caractères "Ã©" par "é" et des caractères "â" par "'"
+        biblio = biblio.replace(["Ã©", "â"], ["é", "'"], regex = True)
+        
+        # Modification du titre des colonnes
+        biblio = biblio.rename(columns = {"section": "discipline", "numÃ©ro TEL": "numéro TEL", "numÃ©ro citation": "numéro citation"})
+        
+        # Renommage des types de référence
+        biblio["type"] = biblio["type"].replace(["chapter", "book", "article-journal", "paper-conference", "thesis", "report", "webpage", "manuscript", "patent", "interview", "motion_picture", "personal_communication"], ["chapitre", "livre", "article", "papier de conférence", "thèse", "rapport", "page web", "manuscrit", "brevet", "interview", "film", "communication personnelle"], regex = True)
+        biblio.head()
+        ```
+        
+        |     | discipline | numéro TEL        | numéro citation | type     | titre                                             |
+        | --: | ---------: | ----------------: | --------------: | -------: | ------------------------------------------------: |
+        | 0   | I          | halshs-00005971v1 | 1               | chapitre | Action                                            |
+        | 1   | I          | halshs-00005971v1 | 1               | livre    | Mainstreaming Gender in the European Structura... |
+        | 2   | I          | halshs-00005971v1 | 1               | NaN      | L'Européanisation saisie par son instrumenta...   |
+        | 3   | I          | halshs-00005971v1 | 1               | article  | Eléments pour une sociologie de la traduction...  |
+        | 4   | I          | halshs-00005971v1 | 1               | livre    | [' L'agonie d'un laboratoire', 'La science...     |
+        {:data-align="center"}
+        
+        ### Inspection des variables
+        
+        ```python
+        print(biblio.info())
+        print()
+        print("Nombre de valeurs uniques par colonnes:")
+        print(biblio.nunique())
+        print()
+        print("Disciplines:")
+        print(biblio["discipline"].unique())
+        print()
+        print("Types de publication:")
+        print(biblio["type"].unique())
+        ```
+        
+        <class 'pandas.core.frame.DataFrame'>
+        RangeIndex: 1821132 entries, 0 to 1821131
+        Data columns (total 5 columns):
+         #   Column           Dtype 
+        ---  ------           ----- 
+         0   discipline       object
+         1   numéro TEL       object
+         2   numéro citation  int64 
+         3   type             object
+         4   titre            object
+        dtypes: int64(1), object(4)
+        memory usage: 69.5+ MB
+        None
+
+        Nombre de valeurs uniques par colonnes:
+        discipline              11
+        numéro TEL           22889
+        numéro citation          1
+        type                    12
+        titre              1437703
+        dtype: int64
+
+        Disciplines:
+        ['I' 'II' 'III' 'IV' 'IX' 'pharmacie' 'V' 'VI' 'VII' 'VIII' 'X']
+
+        Types de publication:
+        ['chapitre' 'livre' nan 'article' 'papier de conférence' 'thèse' 'rapport'
+         'page web' 'manuscrit' 'brevet' 'interview' 'film'
+         'communication personnelle']
