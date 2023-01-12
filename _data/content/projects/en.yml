@@ -594,13 +594,13 @@ page_data:
         ```python
         print(biblio.info())
         print()
-        print("Nombre de valeurs uniques par colonnes:")
+        print("Nombre de valeurs uniques par colonne :")
         print(biblio.nunique())
         print()
-        print("Disciplines:")
+        print("Disciplines :")
         print(biblio["discipline"].unique())
         print()
-        print("Types de publication:")
+        print("Types de publication :")
         print(biblio["type"].unique())
         ```
         
@@ -615,25 +615,76 @@ page_data:
         | 2  | numéro citation | int64  |
         | 3  | type            | object | 
         | 4  | titre           | object |
-        
-        dtypes: int64(1), object(4)  
-        memory usage: 69.5+ MB  
-        None
+        | dtypes: int64(1), object(4) | |
 
-        Nombre de valeurs uniques par colonnes:
+        Nombre de valeurs uniques par colonne :
         
         | discipline | 11 |
         | numéro TEL | 22889 |
         | numéro citation | 1 |
         | type | 12 |
         | titre | 1437703 |
-        
-        dtype: int64
+        | dtype: int64 | |
 
-        Disciplines:  
+        Disciplines :  
         ['I' 'II' 'III' 'IV' 'IX' 'pharmacie' 'V' 'VI' 'VII' 'VIII' 'X']
 
-        Types de publication:  
+        Types de publication :  
         ['chapitre' 'livre' nan 'article' 'papier de conférence' 'thèse' 'rapport'
          'page web' 'manuscrit' 'brevet' 'interview' 'film'
          'communication personnelle']
+        
+        ### Étude des données manquantes
+        
+        ```python
+        # Pourcentage de valeurs manquantes par variable
+        biblio.isna().mean()*100
+        ```
+
+        | discipline |         0.000000 |
+        | numéro TEL |         0.000000 |
+        | numéro citation |    0.000000 |
+        | type |              14.808372 |
+        | titre |             10.566834 |
+        | dtype: float64 | |
+        
+        ```python
+        # Distribution des valeurs manquantes dans le type et le titre des références
+        plt.rc("font", family = "Times New Roman", size = 12)
+        msno.matrix(biblio[["type", "titre"]].sort_values("type"), figsize = (17.5/2.54, 9/2.54), fontsize = 12, label_rotation = 0)
+        plt.ylabel("Numéro de ligne", fontsize = 12)
+        plt.xlabel("Variables", fontsize = 12, labelpad = 12)
+        plt.tick_params(axis = "both", labelsize = 12)
+        gray_patch = mpatches.Patch(facecolor = '#383838', edgecolor = 'black', label = 'Valeurs présentes')
+        white_patch = mpatches.Patch(facecolor = 'white', edgecolor = 'black', label = 'Valeurs absentes')
+        plt.legend(handles = [gray_patch, white_patch], fontsize = 12, bbox_to_anchor = (0.92, 1.30), frameon = False, ncol = 2)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        ```python
+        # Distribution des valeurs manquantes dans chaque combinaison de variables
+        plt.rc('font', family = 'Times New Roman', size = 12)
+        fig = plt.figure(figsize = (17.5/2.54, 9/2.54))
+        plot(from_indicators(indicators = pd.isna, data = biblio[["type", "titre"]]), show_counts = True, fig = fig, element_size = None)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        ```python
+        # Pourcentage de valeurs manquantes dans chaque combinaison des deux variables titre et type de références
+        print("Pourcentage de valeurs manquantes dans :")
+        print("- le titre des références : " + str(round(214132 * 100 / (214132 + 136888 + 55548))) + "%")
+        print("- le type des références : " + str(round(136888 * 100 / (214132 + 136888 + 55548))) + "%")
+        print("- le titre et le type : " + str(round(55548 * 100 / (214132 + 136888 + 55548))) + "%")
+        ```
+        
+        Pourcentage de valeurs manquantes dans :  
+        - le titre des références : 53%  
+        - le type des références : 34%  
+        - le titre et le type : 14%
+        
+        ### Étude du nombre de références citées par thèse et par discipline
+        
