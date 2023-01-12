@@ -581,7 +581,7 @@ page_data:
         ```
         
         |     | discipline | numéro TEL        | numéro citation | type     | titre                                             |
-        | --: | ---------: | ----------------: | --------------: | -------: | ------------------------------------------------: |
+        | --- | ---------- | ----------------- | --------------- | -------- | ------------------------------------------------- |
         | 0   | I          | halshs-00005971v1 | 1               | chapitre | Action                                            |
         | 1   | I          | halshs-00005971v1 | 1               | livre    | Mainstreaming Gender in the European Structura... |
         | 2   | I          | halshs-00005971v1 | 1               | NaN      | L'Européanisation saisie par son instrumenta...   |
@@ -609,7 +609,7 @@ page_data:
         Data columns (total 5 columns):  
         
         | #  | Column          | Dtype  |
-        | -: | --------------: | -----: |
+        | -- | --------------- | ------ |
         | 0  | discipline      | object |
         | 1  | numéro TEL      | object |
         | 2  | numéro citation | int64  |
