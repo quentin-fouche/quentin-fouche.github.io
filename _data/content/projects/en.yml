@@ -644,8 +644,9 @@ page_data:
         
         ### Étude des données manquantes
         
+        **Pourcentage de valeurs manquantes par variable**
+        
         ```python
-        # Pourcentage de valeurs manquantes par variable
         biblio.isna().mean()*100
         ```
 
@@ -656,8 +657,9 @@ page_data:
         | titre |             10.566834 |
         | dtype: float64 | |
         
+        **Distribution des valeurs manquantes dans le type et le titre des références**
+        
         ```python
-        # Distribution des valeurs manquantes dans le type et le titre des références
         plt.rc("font", family = "Times New Roman", size = 12)
         msno.matrix(biblio[["type", "titre"]].sort_values("type"), figsize = (17.5/2.54, 9/2.54), fontsize = 12, label_rotation = 0)
         plt.ylabel("Numéro de ligne", fontsize = 12)
@@ -671,8 +673,9 @@ page_data:
         
         IMPORT IMAGE GRAPHE
         
+        **Distribution des valeurs manquantes dans chaque combinaison de variables**
+        
         ```python
-        # Distribution des valeurs manquantes dans chaque combinaison de variables
         plt.rc('font', family = 'Times New Roman', size = 12)
         fig = plt.figure(figsize = (17.5/2.54, 9/2.54))
         plot(from_indicators(indicators = pd.isna, data = biblio[["type", "titre"]]), show_counts = True, fig = fig, element_size = None)
@@ -681,8 +684,9 @@ page_data:
         
         IMPORT IMAGE GRAPHE
         
+        **Pourcentage de valeurs manquantes dans chaque combinaison des deux variables titre et type de références**
+        
         ```python
-        # Pourcentage de valeurs manquantes dans chaque combinaison des deux variables titre et type de références
         print("Pourcentage de valeurs manquantes dans :")
         print("- le titre des références : " + str(round(214132 * 100 / (214132 + 136888 + 55548))) + "%")
         print("- le type des références : " + str(round(136888 * 100 / (214132 + 136888 + 55548))) + "%")
@@ -696,3 +700,336 @@ page_data:
         
         ### Étude du nombre de références citées par thèse et par discipline
         
+        **Nombre total de thèses présentes dans le jeu de données par discipline**
+        
+        ```python
+        Nb_these_par_discipline = biblio.groupby(["discipline", "numéro TEL"]).size().to_frame().reset_index().groupby("discipline").size()
+        print(Nb_these_par_discipline)
+        ```
+        
+        | discipline
+        | I |            229 |
+        | II |          1359 |
+        | III |          654 |
+        | IV |          1003 |
+        | IX |          9430 |
+        | V |           2851 |
+        | VI |          2768 |
+        | VII |         1235 |
+        | VIII |        1551 |
+        | X |           1780 |
+        | pharmacie |     29 |
+        | dtype: int64 | |
+        
+        **Représentation de la moyenne (± erreur standard) du nombre de références par thèse en fonction de la discipline**
+        
+        ```python
+        biblio_sans_pharma = biblio[biblio["discipline"] != "pharmacie"] # retrait des thèses réalisées en pharmacie
+        
+        Nb_ref_par_these_discipline = biblio_sans_pharma.pivot_table(values = "numéro citation", index = "numéro TEL", columns = "discipline", aggfunc = "sum")
+        my_df1 = Nb_ref_par_these_discipline.copy(deep = True)
+        my_df2 = pd.DataFrame()
+        my_df2.index = ["Moyenne", "ESM"]
+        for i in my_df1.columns:
+            my_df2[i] = [my_df1[i].values[~np.isnan(my_df1[i].values)].mean(), my_df1[i].values[~np.isnan(my_df1[i].values)].std() / np.sqrt(len(my_df1[i].values[~np.isnan(my_df1[i].values)]))]
+        Moyenne_ESM_nb_ref_par_these_discipline = my_df2.copy(deep = True)
+        
+        plt.rc("font", family = "Times New Roman", size = 12)
+        fig, ax = plt.subplots(figsize = (17.5/2.54, 9/2.54))
+        ax.bar(x = Moyenne_ESM_nb_ref_par_these_discipline.columns[[0,1,2,3,5,6,7,8,4,9]], height = Moyenne_ESM_nb_ref_par_these_discipline.loc["Moyenne"].values[[0,1,2,3,5,6,7,8,4,9]])
+        ax.errorbar(x = Moyenne_ESM_nb_ref_par_these_discipline.columns[[0,1,2,3,5,6,7,8,4,9]], y = Moyenne_ESM_nb_ref_par_these_discipline.loc["Moyenne"].values[[0,1,2,3,5,6,7,8,4,9]], yerr = Moyenne_ESM_nb_ref_par_these_discipline.loc["ESM"].values[[0,1,2,3,5,6,7,8,4,9]], fmt='_', capsize = 4, capthick = 1.5, ecolor = "black")
+        ax.spines[["right", "top"]].set_visible(False)
+        ax.set_xlabel("Disciplines", labelpad = 8)
+        ax.set_ylabel("Nombre de références par thèse", labelpad = 8)
+        ax.set_ylim(0,140)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Test de Kruskal-Wallis sur le nombre de références par thèse en fonction de la discipline**
+        
+        ```python
+        my_dict = {}
+        for i in list(Moyenne_ESM_nb_ref_par_these_discipline.columns[[0,1,2,3,5,6,7,8,4,9]]):
+            my_dict[i] = Nb_ref_avec_discipline[Nb_ref_avec_discipline["discipline"] == i]["nb_ref"]
+        stats.kruskal(my_dict["I"], my_dict["II"], my_dict["III"], my_dict["IV"], my_dict["V"], my_dict["VI"], my_dict["VII"], my_dict["VIII"], my_dict["IX"], my_dict["X"])
+        ```
+        
+        KruskalResult(statistic=850.2820953446758, pvalue=3.1724295932050167e-177)
+        
+        ### Étude du type de référence citée par thèse et par discipline
+        
+        **Représentation de la proportion moyenne de chaque type de références citées par thèse, en fonction de la discipline**
+        
+        ```python
+        biblio_sans_pharma_ni_nan = biblio_sans_pharma[biblio_sans_pharma["type"].notnull()] # retrait des références dont le type est inconnu
+        
+        # calcul des proportions de chaque type de références citées par thèse, pour chaque discipline
+        my_dict = {}
+        for discipline in biblio_sans_pharma_ni_nan["discipline"].unique():
+            my_df_number = biblio_sans_pharma_ni_nan[biblio_sans_pharma_ni_nan["discipline"] == discipline].pivot_table(values = "numéro citation", index = "numéro TEL", columns = "type", aggfunc = "sum")
+            my_df_prop = pd.DataFrame(index = my_df_number.index, columns = biblio_sans_pharma_ni_nan["type"].unique())
+            my_df_prop = my_df_prop.fillna(0)
+            for i in my_df_number.index:
+                for j in my_df_number.columns:
+                    my_df_prop.loc[i,j] = my_df_number.loc[i,j]*100 / my_df_number.loc[i,:].sum()
+            my_df_prop = my_df_prop.fillna(0)
+            my_dict[discipline] = my_df_prop.copy(deep = True)
+        
+        # calcul de la moyenne et de l'erreur standard de la proportion de chaque type de références citées par thèse, pour chaque discipline
+        Moyenne_Prop_type_ref_par_these = pd.DataFrame(index = my_dict.keys(), columns = biblio_sans_pharma_ni_nan["type"].unique())
+        ESM_Prop_type_ref_par_these = pd.DataFrame(index = my_dict.keys(), columns = biblio_sans_pharma_ni_nan["type"].unique())
+        for discipline in my_dict.keys():
+            for i in my_dict[discipline].columns:
+                Moyenne_Prop_type_ref_par_these.loc[discipline, i] = my_dict[discipline][i].values[~np.isnan(my_dict[discipline][i].values)].mean()
+                ESM_Prop_type_ref_par_these.loc[discipline, i] = my_dict[discipline][i].values[~np.isnan(my_dict[discipline][i].values)].std() / np.sqrt(len(my_dict[discipline][i].values[~np.isnan(my_dict[discipline][i].values)]))
+        
+        # regroupement des types autres que chapitre, livre et article dans une catégorie autre
+        Moyenne_Prop_type_ref_par_these_4_cat = Moyenne_Prop_type_ref_par_these.copy(deep = True)
+        Autre = []
+        for i in range(0,len(list(Moyenne_Prop_type_ref_par_these.index))):
+            Autre.append(np.array(Moyenne_Prop_type_ref_par_these_4_cat.iloc[i,3:]).sum())
+        Moyenne_Prop_type_ref_par_these_4_cat["autre"] = Autre
+        Moyenne_Prop_type_ref_par_these_4_cat = Moyenne_Prop_type_ref_par_these_4_cat.drop(columns = list(Moyenne_Prop_type_ref_par_these.columns)[3:])
+        
+        # représentation en diagramme en barres empilées
+        List_types = list(Moyenne_Prop_type_ref_par_these_4_cat.columns)
+        k = np.array(list(Moyenne_Prop_type_ref_par_these_4_cat["chapitre"].values[[0,1,2,3,5,6,7,8,4,9]]))
+        plt.rc("font", family = "Times New Roman", size = 12)
+        fig, ax = plt.subplots(figsize = (17.5/2.54, 9/2.54))
+        plt.gca().spines["right"].set_visible(False)
+        plt.gca().spines["top"].set_visible(False)
+        ax.set_xlabel("Discipline", labelpad = 8)
+        ax.set_ylabel("Pourcentage moyen de références par thèse", labelpad = 8)
+        ax.set_ylim(0,100)
+        ax.bar(list(Moyenne_Prop_type_ref_par_these_4_cat["chapitre"].index[[0,1,2,3,5,6,7,8,4,9]]), list(Moyenne_Prop_type_ref_par_these_4_cat["chapitre"].values[[0,1,2,3,5,6,7,8,4,9]]), label = "chapitre", width = 0.75, alpha = 0.5)
+        for i in List_types[1:]:
+            ax.bar(list(Moyenne_Prop_type_ref_par_these_4_cat[i].index[[0,1,2,3,5,6,7,8,4,9]]), list(Moyenne_Prop_type_ref_par_these_4_cat[i].values[[0,1,2,3,5,6,7,8,4,9]]), bottom = k, label = i, width = 0.75, alpha = 0.5)
+            k = k + np.array(list(Moyenne_Prop_type_ref_par_these_4_cat[i].values[[0,1,2,3,5,6,7,8,4,9]]))
+        ax.legend(bbox_to_anchor = (0.065, 1.03), frameon = False, ncol = 4)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Test de Kruskal-Wallis sur le pourcentage d'articles cités par thèse en fonction de la discipline**
+        
+        ```python
+        stats.kruskal(list_articles[0], list_articles[1], list_articles[2], list_articles[3], list_articles[4], list_articles[5], list_articles[6], list_articles[7], list_articles[8], list_articles[9])
+        ```
+        
+        KruskalResult(statistic=6605.611024663464, pvalue=0.0)
+        
+        ### Étude du nombre de références citées par thèse et type de référence
+        
+        ##### Thèses de SHS
+        
+        **Création d'un tableau indiquant le pourcentage de références citées par thèse, pour chaque type de référence**
+        
+        ```python
+        Nb_ref_par_these_discipline_sans_nan = biblio_sans_pharma_ni_nan.pivot_table(values = "numéro citation", index = "numéro TEL", columns = "discipline", aggfunc = "sum").fillna(0)
+        theses = list(Nb_ref_par_these_discipline_sans_nan.index)
+        nb_ref = [Nb_ref_par_these_discipline_sans_nan.loc[i,:].max() for i in Nb_ref_par_these_discipline_sans_nan.index]
+        Nb_ref_par_these = pd.DataFrame({"these": theses, "nb_ref": nb_ref})
+        df_final = pd.DataFrame(columns = ["these", "discipline", "type_ref", "prop_type_ref"])
+        for i in my_dict.keys():
+            my_df = my_dict[i].copy(deep = True)
+            my_df = my_df.stack().reset_index()
+            my_df["these"] = my_df["numéro TEL"]
+            my_df["discipline"] = [i] * my_df.shape[0]
+            my_df["type_ref"] = my_df["level_1"]
+            my_df["prop_type_ref"] = my_df[my_df.columns[2]]
+            my_df = my_df.drop(columns = ["numéro TEL", "level_1", my_df.columns[2]])
+            df_final = pd.merge(df_final, my_df, how = "outer")
+        df_final = pd.merge(df_final, Nb_ref_par_these, how = "left", on = "these")
+        df_final.head()
+        ```
+        
+        |	these |	discipline | type_ref |	prop_type_ref |	nb_ref |
+        |	:---- |	:--------- | :------- |	:------------ |	:----- |
+        |	0 |	halshs-00005971v1 |	I |	chapitre | 24.615385 | 130.0 |
+        |	1 |	halshs-00005971v1 |	I |	livre |	16.153846 |	130.0 |
+        |	2 |	halshs-00005971v1 |	I |	article |	56.923077 |	130.0 |
+        |	3 |	halshs-00005971v1 |	I |	papier de conférence |	2.307692 |	130.0 |
+        |	4 |	halshs-00005971v1 |	I |	thèse |	0.000000 |	130.0 |
+        
+        **Représentation de la proportion de livres et chapitres de livres cités par thèse en SHS en fonction du nombre de références citées par thèse**
+        
+        ```python
+        # sélection des thèses de SHS
+        SHS = ["I", "II", "III", "IV"]
+        df_SHS = pd.DataFrame(columns = list(df_final.columns))
+        for i in SHS:
+            my_df = df_final[df_final["discipline"] == i]
+            df_SHS = pd.merge(df_SHS, my_df, how = "outer")
+        prop_livres_chapitres = list(df_SHS[df_SHS["type_ref"] == "livre"]["prop_type_ref"].values + df_SHS[df_SHS["type_ref"] == "chapitre"]["prop_type_ref"].values)
+        nb_ref = list(df_SHS[df_SHS["type_ref"] == "livre"]["nb_ref"].values)
+        discipline = ["SHS"] * len(nb_ref)
+        df_SHS = pd.DataFrame({"prop_livres_chapitres": prop_livres_chapitres, "nb_ref": nb_ref, "discipline": discipline})
+        
+        # représentation en scatter plot, avec en rouge la droite de régression
+        model_SHS = ols("prop_livres_chapitres ~ nb_ref", data = df_SHS).fit()
+        coeffs_SHS = model_SHS.params
+        ic_SHS, slope_SHS = coeffs_SHS
+        fig, ax = plt.subplots(figsize = (17.5/2.54, 9/2.54))
+        sns.scatterplot(x = "nb_ref", y = "prop_livres_chapitres", data = df_SHS, alpha = 0.2, color = "black", s = 25)
+        ax.axline(xy1 = (0, ic_SHS), slope = slope_SHS, color = "red")
+        ax.set_ylim(0, 100)
+        ax.set_xlabel("Nombre de références par thèse", labelpad = 8)
+        ax.set_ylabel("Pourcentage de livres et chapitres de livres", labelpad = 8)
+        ax.spines[["top", "right"]].set_visible(False)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Affichage de l'équation de la droite de régression :**
+        
+        ```python
+        print("y = " + str(ic_SHS) + " + " + str(slope_SHS) + "x")
+        ```
+        
+        y = 42.059626652741066 + 0.017718721528044858x
+        
+        **Test de la normalité de la distribution des données des deux variables**
+        
+        ```python
+        test_shapiro_1 = stats.shapiro(df_SHS["prop_livres_chapitres"])
+        test_shapiro_2 = stats.shapiro(df_SHS["nb_ref"])
+        plt.rc("font", family = "Times New Roman", size = 12)
+        fig, ax = plt.subplots(nrows = 1, ncols = 2, figsize = (24/2.54, 9/2.54))
+        ax[0].hist(df_SHS["prop_livres_chapitres"], bins = 10)
+        ax[0].spines[["right", "top"]].set_visible(False)
+        ax[0].set_title("W = " + str(round(test_shapiro_1[0], 2)) + " ; P = " + str(round(test_shapiro_1[1], 2)))
+        ax[0].set_xlabel("Pourcentage de livres et chapitres cités par thèse", labelpad = 8)
+        ax[0].set_ylabel("Fréquence", labelpad = 8)
+        ax[1].hist(df_SHS["nb_ref"], bins = 10)
+        ax[1].spines[["right", "top"]].set_visible(False)
+        ax[1].set_title("W = " + str(round(test_shapiro_2[0], 2)) + " ; P = " + str(round(test_shapiro_2[1], 2)))
+        ax[1].set_xlabel("Nombre de références par thèse", labelpad = 8)
+        ax[1].set_ylabel("Fréquence", labelpad = 8)
+        plt.subplots_adjust(wspace = 0.30)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Calcul de l'erreur standard résiduelle (ESR)**
+        
+        ```python
+        def erreur_standard_residuelle(my_model, nb_ind):
+            """Calcule l'erreur standard résiduelle (ESR) d'un modèle de régression linéaire.
+
+            Parameters
+            ---------------
+            arg_1 : statsmodels.regression.linear_model.RegressionResultsWrapper
+                Le modèle à partir duquel calculer l'ESR.
+            arg_2 : int
+                La taille de l'échantillon.
+
+            Returns
+            ----------
+            float
+            """
+            residuals_sq = my_model.resid ** 2
+            resid_sum_of_sq = sum(residuals_sq)
+            deg_freedom = nb_ind - 2
+            res = np.sqrt(resid_sum_of_sq/deg_freedom)
+            return res
+        
+        print("ESR = " + str(erreur_standard_residuelle(model_SHS, len(df_SHS["prop_livres_chapitres"].index))))
+        ```
+        
+        ESR = 23.259931079516917
+        
+        **Test de corrélation de Pearson**
+        
+        ```python
+        print("Pearson :")
+        print(stats.pearsonr(df_SHS["prop_livres_chapitres"].dropna(), df_SHS["nb_ref"].dropna()))
+        ```
+        
+        Pearson :
+        (0.04050192743832813, 0.021041105356744992)
+        
+        ##### Thèses de sciences dures
+        
+        **Représentation de la proportion de livres et chapitres de livres cités par thèse en sciences dures en fonction du nombre de références citées par thèse**
+
+        ```python
+        # sélection des thèses de sciences dures
+        sciences_dures = ["V", "VI", "VII", "VIII", "IX", "X"]
+        df_sciences_dures = pd.DataFrame(columns = list(df_final.columns))
+        for i in sciences_dures:
+            my_df = df_final[df_final["discipline"] == i]
+            df_sciences_dures = pd.merge(df_sciences_dures, my_df, how = "outer")
+        prop_livres_chapitres = list(df_sciences_dures[df_sciences_dures["type_ref"] == "livre"]["prop_type_ref"].values + df_sciences_dures[df_sciences_dures["type_ref"] == "chapitre"]["prop_type_ref"].values)
+        nb_ref = list(df_sciences_dures[df_sciences_dures["type_ref"] == "livre"]["nb_ref"].values)
+        discipline = ["sciences_dures"] * len(nb_ref)
+        df_sciences_dures = pd.DataFrame({"prop_livres_chapitres": prop_livres_chapitres, "nb_ref": nb_ref, "discipline": discipline})
+        
+        # représentation en scatter plot, avec en rouge la droite de régression
+        model_sciences_dures = ols("prop_livres_chapitres ~ nb_ref", data = df_sciences_dures).fit()
+        coeffs_sciences_dures = model_sciences_dures.params
+        ic_sciences_dures, slope_sciences_dures = coeffs_sciences_dures
+        fig, ax = plt.subplots(figsize = (17.5/2.54, 9/2.54))
+        sns.scatterplot(x = "nb_ref", y = "prop_livres_chapitres", data = df_sciences_dures, alpha = 0.1, color = "black", s = 25)
+        ax.axline(xy1 = (0, ic_sciences_dures), slope = slope_sciences_dures, color = "red")
+        ax.set_ylim(0, 100)
+        ax.set_xlabel("Nombre de références par thèse", labelpad = 8)
+        ax.set_ylabel("Pourcentage de livres et chapitres de livres", labelpad = 8)
+        ax.spines[["top", "right"]].set_visible(False)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Affichage de l'équation de la droite de régression :**
+        
+        ```python
+        print("y = " + str(ic_sciences_dures) + " + " + str(slope_sciences_dures) + "x")
+        ```
+        
+        y = 14.80058367648076 + -0.011882279487390686x
+        
+        **Test de la normalité de la distribution des données des deux variables**
+        
+        ```python
+        test_shapiro_1 = stats.shapiro(df_sciences_dures["prop_livres_chapitres"])
+        test_shapiro_2 = stats.shapiro(df_sciences_dures["nb_ref"])
+        plt.rc("font", family = "Times New Roman", size = 12)
+        fig, ax = plt.subplots(nrows = 1, ncols = 2, figsize = (24/2.54, 9/2.54))
+        ax[0].hist(df_sciences_dures["prop_livres_chapitres"], bins = 10)
+        ax[0].spines[["right", "top"]].set_visible(False)
+        ax[0].set_title("W = " + str(round(test_shapiro_1[0], 2)) + " ; P = " + str(test_shapiro_1[1]))
+        ax[0].set_xlabel("Pourcentage de livres et chapitres cités par thèse", labelpad = 8)
+        ax[0].set_ylabel("Fréquence", labelpad = 8)
+        ax[1].hist(df_sciences_dures["nb_ref"], bins = 10)
+        ax[1].spines[["right", "top"]].set_visible(False)
+        ax[1].set_title("W = " + str(round(test_shapiro_2[0], 2)) + " ; P = " + str(test_shapiro_2[1]))
+        ax[1].set_xlabel("Nombre de références par thèse", labelpad = 8)
+        ax[1].set_ylabel("Fréquence", labelpad = 8)
+        plt.subplots_adjust(wspace = 0.30)
+        plt.show()
+        ```
+        
+        IMPORT IMAGE GRAPHE
+        
+        **Calcul de l'erreur standard résiduelle (ESR)**
+        
+        ```python
+        print("ESR = " + str(erreur_standard_residuelle(model_sciences_dures, len(df_sciences_dures["prop_livres_chapitres"].index))))
+        ```
+        
+        ESR = 13.324698101939783
+        
+        **Test de corrélation de Pearson**
+        
+        ```python
+        print("Pearson :")
+        print(stats.pearsonr(df_sciences_dures["prop_livres_chapitres"].dropna(), df_sciences_dures["nb_ref"].dropna()))
+        ```
+        
+        Pearson :
+        (-0.04260592596936459, 2.380665738031805e-09)
