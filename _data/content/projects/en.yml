@@ -724,8 +724,10 @@ page_data:
         **Représentation de la moyenne (± erreur standard) du nombre de références par thèse en fonction de la discipline**
         
         ```python
-        biblio_sans_pharma = biblio[biblio["discipline"] != "pharmacie"] # retrait des thèses réalisées en pharmacie
+        # retrait des thèses réalisées en pharmacie
+        biblio_sans_pharma = biblio[biblio["discipline"] != "pharmacie"]
         
+        # calcul de la moyenne et de l'erreur standard
         Nb_ref_par_these_discipline = biblio_sans_pharma.pivot_table(values = "numéro citation", index = "numéro TEL", columns = "discipline", aggfunc = "sum")
         my_df1 = Nb_ref_par_these_discipline.copy(deep = True)
         my_df2 = pd.DataFrame()
@@ -734,6 +736,7 @@ page_data:
             my_df2[i] = [my_df1[i].values[~np.isnan(my_df1[i].values)].mean(), my_df1[i].values[~np.isnan(my_df1[i].values)].std() / np.sqrt(len(my_df1[i].values[~np.isnan(my_df1[i].values)]))]
         Moyenne_ESM_nb_ref_par_these_discipline = my_df2.copy(deep = True)
         
+        # représentation en diagramme en barres
         plt.rc("font", family = "Times New Roman", size = 12)
         fig, ax = plt.subplots(figsize = (17.5/2.54, 9/2.54))
         ax.bar(x = Moyenne_ESM_nb_ref_par_these_discipline.columns[[0,1,2,3,5,6,7,8,4,9]], height = Moyenne_ESM_nb_ref_par_these_discipline.loc["Moyenne"].values[[0,1,2,3,5,6,7,8,4,9]])
@@ -763,7 +766,8 @@ page_data:
         **Représentation de la proportion moyenne de chaque type de références citées par thèse, en fonction de la discipline**
         
         ```python
-        biblio_sans_pharma_ni_nan = biblio_sans_pharma[biblio_sans_pharma["type"].notnull()] # retrait des références dont le type est inconnu
+        # retrait des références dont le type est inconnu
+        biblio_sans_pharma_ni_nan = biblio_sans_pharma[biblio_sans_pharma["type"].notnull()]
         
         # calcul des proportions de chaque type de références citées par thèse, pour chaque discipline
         my_dict = {}
@@ -868,7 +872,7 @@ page_data:
         discipline = ["SHS"] * len(nb_ref)
         df_SHS = pd.DataFrame({"prop_livres_chapitres": prop_livres_chapitres, "nb_ref": nb_ref, "discipline": discipline})
         
-        # représentation en scatter plot, avec en rouge la droite de régression
+        # représentation en nuage de points, avec en rouge la droite de régression
         model_SHS = ols("prop_livres_chapitres ~ nb_ref", data = df_SHS).fit()
         coeffs_SHS = model_SHS.params
         ic_SHS, slope_SHS = coeffs_SHS
@@ -969,7 +973,7 @@ page_data:
         discipline = ["sciences_dures"] * len(nb_ref)
         df_sciences_dures = pd.DataFrame({"prop_livres_chapitres": prop_livres_chapitres, "nb_ref": nb_ref, "discipline": discipline})
         
-        # représentation en scatter plot, avec en rouge la droite de régression
+        # représentation en nuage de points, avec en rouge la droite de régression
         model_sciences_dures = ols("prop_livres_chapitres ~ nb_ref", data = df_sciences_dures).fit()
         coeffs_sciences_dures = model_sciences_dures.params
         ic_sciences_dures, slope_sciences_dures = coeffs_sciences_dures
