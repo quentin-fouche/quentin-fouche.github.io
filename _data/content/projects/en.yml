@@ -338,10 +338,14 @@ page_data:
         type et le titre des références, pour toutes les références présentes dans le jeu de données.
         {:data-align="center"}
         
+        ![Figure 1](:Figure_1.eps){:data-align="center"}
+        
         **Figure 2.** Nombre de valeurs manquantes dans le type et le titre des références. Les
         points colorés en noir indiquent dans quelle combinaison de variables sont situées les
         valeurs manquantes.
         {:data-align="center"}
+        
+        ![Figure 2](:Figure_2.eps){:data-align="center"}
         
         ***
         
@@ -359,6 +363,8 @@ page_data:
         la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne. Le nombre de
         thèses dans chaque discipline est donné dans le Tableau 2.
         {:data-align="center"}
+        
+        ![Figure 3](:Figure_3.eps){:data-align="center"}
         
         ##### Type de référence citée et discipline
         La Figure 4 représente le pourcentage moyen de références citées par thèse en fonction
@@ -383,6 +389,8 @@ page_data:
         thèses, rapports de stage, pages web, manuscrits non publiés, brevets, interviews, films et
         communications personnelles.
         {:data-align="center"}
+        
+        ![Figure 4](:Figure_4.eps){:data-align="center"}
         
         ##### Nombre de références citées par thèse et type de référence
         La relation entre le pourcentage de livres et chapitres de livres cités dans une thèse et
