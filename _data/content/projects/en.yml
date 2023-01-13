@@ -338,14 +338,14 @@ page_data:
         type et le titre des références, pour toutes les références présentes dans le jeu de données.
         {:data-align="center"}
         
-        ![Figure 1](:Figure_1.jpg){:data-align="center"}
+        ![Figure 1](:Projet_aut_rapport_Figure_1.jpg){:data-align="center"}
         
         **Figure 2.** Nombre de valeurs manquantes dans le type et le titre des références. Les
         points colorés en noir indiquent dans quelle combinaison de variables sont situées les
         valeurs manquantes.
         {:data-align="center"}
         
-        ![Figure 2](:Figure_2.jpg){:data-align="center"}
+        ![Figure 2](:Projet_aut_rapport_Figure_2.jpg){:data-align="center"}
         
         ***
         
@@ -364,7 +364,7 @@ page_data:
         thèses dans chaque discipline est donné dans le Tableau 2.
         {:data-align="center"}
         
-        ![Figure 3](:Figure_3.jpg){:data-align="center"}
+        ![Figure 3](:Projet_aut_rapport_Figure_3.jpg){:data-align="center"}
         
         ##### Type de référence citée et discipline
         La Figure 4 représente le pourcentage moyen de références citées par thèse en fonction
@@ -390,7 +390,7 @@ page_data:
         communications personnelles.
         {:data-align="center"}
         
-        ![Figure 4](:Figure_4.jpg){:data-align="center"}
+        ![Figure 4](:Projet_aut_rapport_Figure_4.jpg){:data-align="center"}
         
         ##### Nombre de références citées par thèse et type de référence
         La relation entre le pourcentage de livres et chapitres de livres cités dans une thèse et
@@ -671,7 +671,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 1](:Projet_aut_notebook_Figure_1.png){:data-align="center"}
         
         **Distribution des valeurs manquantes dans chaque combinaison de variables**
         
@@ -682,7 +682,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 2](:Projet_aut_notebook_Figure_2.png){:data-align="center"}
         
         **Pourcentage de valeurs manquantes dans chaque combinaison des deux variables titre et type de références**
         
@@ -748,7 +748,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 3](:Projet_aut_notebook_Figure_3.png){:data-align="center"}
         
         **Test de Kruskal-Wallis sur le nombre de références par thèse en fonction de la discipline**
         
@@ -815,7 +815,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 4](:Projet_aut_notebook_Figure_4.png){:data-align="center"}
         
         **Test de Kruskal-Wallis sur le pourcentage d'articles cités par thèse en fonction de la discipline**
         
@@ -886,7 +886,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 5](:Projet_aut_notebook_Figure_5.png){:data-align="center"}
         
         **Affichage de l'équation de la droite de régression :**
         
@@ -917,7 +917,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 6](:Projet_aut_notebook_Figure_6.png){:data-align="center"}
         
         **Calcul de l'erreur standard résiduelle (ESR)**
         
@@ -987,7 +987,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 7](:Projet_aut_notebook_Figure_7.png){:data-align="center"}
         
         **Affichage de l'équation de la droite de régression :**
         
@@ -1018,7 +1018,7 @@ page_data:
         plt.show()
         ```
         
-        IMPORT IMAGE GRAPHE
+        ![Figure 8](:Projet_aut_notebook_Figure_8.png){:data-align="center"}
         
         **Calcul de l'erreur standard résiduelle (ESR)**
         
