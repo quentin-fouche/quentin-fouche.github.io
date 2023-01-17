@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets d'analyse"
-    info: "Cette page présente les différents projets d'analyse que j'ai réalisé en 2022 au cours du DU Data Analyst (CY Tech)."
+    info: "Cette page présente les différents projets d'analyse que j'ai réalisés en 2022 au cours du DU Data Analyst (CY Tech)."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
@@ -1037,3 +1037,20 @@ page_data:
         
         Pearson :
         (-0.04260592596936459, 2.380665738031805e-09)
+
+
+    # Projet 4 - Analyse en autonomie
+    - type: id_notebooks
+      project_name: "Projet 4 : Analyse en autonomie"
+      project_excerpt: "Ce projet consistait à analyser une base contenant les métadonnées de 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL. Cette analyse, réalisée en autonomie, devait déboucher sur la rédaction d'un rapport en suivant le format IMRAD."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-09-01"
+      post: |
+        ### Description du projet
+        xxx
+        ### Principales visualisations
+        xxx
+        ### Liens
+        Notebook : xxx
+        Rapport : xxx
