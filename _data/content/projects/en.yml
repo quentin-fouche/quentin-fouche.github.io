@@ -26,15 +26,33 @@ page_data:
     # Projet 4 - Analyse en autonomie
     - type: id_notebooks
       project_name: "Projet 4 : Analyse en autonomie"
-      project_excerpt: "Ce projet consistait à analyser une base contenant les métadonnées de 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL. Cette analyse, réalisée en autonomie, devait déboucher sur la rédaction d'un rapport en suivant le format IMRAD."
+      project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans 22 889 thèses électroniques. Cette analyse devait déboucher sur la rédaction d'un rapport suivant le format IMRAD."
       img: ":project1_thumb.jpg"
       img_title: "img title1"
       date: "2022-09-01"
       post: |
         ### Description du projet
-        xxx
+        Le but de ce projet était d'une part de réaliser une analyse autonome d'un jeu de données, d'autre part de rédiger un rapport présentant
+        les résultats les plus pertinents de l'analyse. Le rapport devait devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
+        inclure au moins deux figures et deux tests statistiques, et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
+        
+        Le jeu de données contenait les métadonnées des références bibliographiques citées dans 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL.
+        Ma problématique était la suivante : comment le nombre et le type de références citées par thèse varient-ils en fonction de la discipline de la thèse ?
+        
+        Pour répondre à cette question, j'ai d'abord réalisé une étude des données manquantes puis des analyses statistiques incluant des tests de Kruskall-Wallis,
+        des régressions linéaires et des tests de corrélation de Pearson. Les deux principaux résultats sont illustrés dans les deux figures ci-dessous : (1) les doctorants
+        de sciences humaines et sociales (disciplines I à IV) ont cité plus de références que ceux des sciences dures (disciplines V à X) (Figure 1), et (2) les citations
+        d’articles scientifiques sont proportionnellement plus nombreuses en sciences dures qu’en SHS, contrairement aux citations de livres et chapitres de livres (Figure 2).
+        
         ### Principales visualisations
+        
+        ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_aut_rapport_Figure_3.jpg){:data-align="center"}
+        
+        ![Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.](:Projet_aut_rapport_Figure_4.jpg){:data-align="center"}
+        
+        ### Compétences acquises
         xxx
+        
         ### Liens
         - [notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%204_Quentin%20Fouch%C3%A9.pdf)
         - [rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%204_Quentin%20Fouch%C3%A9.pdf)
