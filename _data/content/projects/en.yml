@@ -15,26 +15,63 @@ page_data:
     - title: "Example"
       type: id_example
       color: "gray"
-    - title: "Rapports"
-      type: id_rapports
+    - title: "Projets"
+      type: id_projets
       color: "#62b462"
-    - title: "Notebooks"
-      type: id_notebooks
-      color: "#7495cf"
 
   list:
-    # Projet 4 - Analyse en autonomie
-    - type: id_notebooks
-      project_name: "Projet 4 : Analyse en autonomie"
-      project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans 22 889 thèses électroniques. Cette analyse devait déboucher sur la rédaction d'un rapport suivant le format IMRAD."
+    # Projet 1 - Manipulation et prétraitement de données
+    - type: id_projets
+      project_name: "Projet 1 : Manipulation et prétraitement de données"
+      project_excerpt: "Ce projet visait à maîtriser les techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-04-28"
+      post: |
+        ### Description du projet
+        Ce projet est le premier que j'ai réalisé au cours de ma formation de Data Analyst. Il avait pour but de manipuler un jeu de
+        données à l'aide de Python et de vérifier sa qualité. 
+
+        Le jeu de données portait sur les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL. Les variables
+        incluaient notamment le nom de l'auteur, le nom du directeur ou de la directrice de thèse, la date de soutenance, le titre de
+        la thèse, la discipline, la langue, le nom de l'établissement d'accueil ou encore l'année de première inscription en doctorat.
+
+        Le prétraitement des données a commencé par une étude des données manquantes. Cette étude incluait la détection des valeurs
+        manquantes et l'analyse de leur répartition dans les différentes variables (cf. diagramme UpSet en Figure 1 et corrélogramme
+        en Figure 2), afin d'identifier les causes possibles de l'absence des données. L'analyse s'est poursuivie par la détection de
+        possibles anomalies, comme par exemple un mois de soutenance sur-représenté par rapport aux autres ou encore des homonymes
+        identifiés comme étant une seule et même personne. Enfin, certaines valeurs aberrantes (outliers) ont été analysées en détail
+        pour déterminer si elles étaient valides ou erronées.
+        
+        ### Principales visualisations
+        
+        ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
+        
+        ![Figure 2. Corrélogramme des valeurs manquantes entre deux variables, pour chaque paire de variables parmi les 6 qui contiennent le plus de données manquantes. Le gradient de couleur indique le degré de corrélation entre les variables (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
+        
+        ### Compétences acquises
+        - Savoir charger et décrire un jeu de données à travers Python
+        - Savoir manipuler une base de données relationnelles (SQL)
+        - Savoir traiter des valeurs manquantes ou aberrantes
+        - Manipuler et représenter la distribution de variables de différents types (continues, binaires, dates, etc.)
+        
+        ### Liens
+        - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%201_Quentin%20Fouch%C3%A9.pdf)
+        - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%201_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Projet 4 - Analyse autonome d'un jeu de données
+    - type: id_projets
+      project_name: "Projet 4 : Analyse autonome d'un jeu de données"
+      project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
       img: ":project1_thumb.jpg"
       img_title: "img title1"
       date: "2022-09-01"
       post: |
         ### Description du projet
-        Le but de ce projet était d'une part de réaliser une analyse autonome d'un jeu de données, d'autre part de rédiger un rapport présentant
+        Le but de ce projet était, d'une part, de réaliser une analyse autonome d'un jeu de données, d'autre part, de rédiger un rapport présentant
         les résultats les plus pertinents de l'analyse. Le rapport devait devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
-        inclure au moins deux figures et deux tests statistiques, et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
+        inclure au moins deux figures et deux tests statistiques et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
         
         Le jeu de données contenait les métadonnées des références bibliographiques citées dans 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL.
         Ma problématique était la suivante : comment le nombre et le type de références citées par thèse varient-ils en fonction de la discipline de la thèse ?
@@ -46,10 +83,10 @@ page_data:
         
         ### Principales visualisations
         
-        ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_aut_rapport_Figure_3.jpg){:data-align="center"}
+        ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
         
-        ![Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.](:Projet_aut_rapport_Figure_4.jpg){:data-align="center"}
-
+        ![Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.](:Projet_4_Figure_2.jpg){:data-align="center"}
+        
         ### Compétences acquises
         - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
         - Structurer de manière logique la restitution des résultats des analyses
