@@ -113,6 +113,62 @@ page_data:
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%202_Quentin%20Fouch%C3%A9.pdf)
 
 
+    # Projet 3 : Statistiques
+    - type: id_projets
+      project_name: "Projet 3 : Statistiques"
+      project_excerpt: "Ce projet traite de l'application des tests statistiques les plus communément utilisés en analyse de données (Chi2, tests de Student et de Mann-Whitney, ANOVA, tests de corrélation) ainsi que des régréssions linéaires et logistiques (loi binomiale, loi de Poisson, odd-ratios)."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-07-08"
+      post: |
+        ### Description du projet
+        Dans ce projet, l'objectif était de mettre en application différents tests statistiques pour analyser des données liées aux
+        résultats d'un MOOC. Ce jeu de données comprenait des variables binaires (e.g. la réussite ou non à l'examen final du MOOC), des
+        variables qualitatives catégorielles (e.g. le genre de l'apprenant, l'IDH - Indice de Développement Humain - de son pays d'origine)
+        et des variables quantitatives discrètes (e.g. le nombre de vidéos vues par apprenant). Les résultats des tests devaient ensuite
+        être présentés et discutés de manière appropriée dans un rapport.
+
+        Les test que j'ai appliqués sont un test de Chi2, dont j'ai représenté les résidus par un diagramme en mosaïque (Figure 1),
+        des tests de Student et de Mann-Whitney et une ANOVA. J'ai également réalisé une régression logistique avec une loi binomiale, en
+        représentant les odd-ratios par un forest plot (Figure 2), une régression de Poisson, ainsi qu'une régression linéaire multiple,
+        dont j'ai évalué les conditions de validité par un ensemble de graphiques présentés en Figure 3.
+        
+
+
+
+
+
+
+
+
+        ### Illustrations
+        
+        ![Figure 1. Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants. La hauteur des blocs représente la proportion relative d’apprenants dans chaque catégorie d’IDH, la largeur représente la proportion relative d’hommes et de femmes. Le gradient de couleur indique la valeur des résidus (rouge : valeurs positives ; bleu : valeurs négatives).](:Projet_3_Figure_1.jpg){:data-align="center"}
+        
+        **Figure 1.** Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants.
+
+
+        ![Figure 2. Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.](:Projet_3_Figure_2.jpg){:data-align="center"}
+        
+        **Figure 2.** Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.
+
+
+        ![Figure 3. Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH. A. Résidus en fonction des valeurs ajustées. La ligne en pointillé représente la droite "y = 0". B. Quantiles observés en fonction des quantiles théoriques. La ligne en pointillé représente la droite "y = x". C. Racine carrée de la valeur absolue des résidus standardisés en fonction des valeurs ajustées. D. Résidus standardisés en fonction du leverage. La ligne en pointillé représente la droite "y = 0".](:Projet_3_Figure_3.jpg){:data-align="center"}
+        
+        **Figure 3.** Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH.
+
+
+        ### Compétences acquises
+        - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
+        - Identifier les situations pour lesquels des tests non-paramétriques sont requis
+        - Savoir transformer des données pour retomber dans les conditions de validité d’un test
+        
+
+        ### Liens
+        - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%203_Quentin%20Fouch%C3%A9.pdf)
+        - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%203_Quentin%20Fouch%C3%A9.pdf)
+
+
     # Projet 4 : Analyse autonome d'un jeu de données
     - type: id_projets
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
@@ -152,7 +208,7 @@ page_data:
         - Structurer de manière logique la restitution des résultats des analyses
         - Produire un document en Latex
         
-        
+
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%204_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%204_Quentin%20Fouch%C3%A9.pdf)
