@@ -43,9 +43,13 @@ page_data:
         
         ### Illustrations
         
+        **Figure 1.** Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables.
+
         ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
         
-        ![Figure 2. Corrélogramme des valeurs manquantes entre deux variables, pour chaque paire de variables parmi les 6 qui contiennent le plus de données manquantes. Le gradient de couleur indique le degré de corrélation entre les variables (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
+        **Figure 2.** Corrélogramme de valeurs manquantes.
+
+        ![Figure 2. Corrélogramme des valeurs manquantes entre deux variables, pour chaque paire de variables parmi les six qui contiennent le plus de données manquantes. Le gradient de couleur indique le degré de corrélation entre les variables (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
         
         ### Compétences acquises
         - Savoir charger et décrire un jeu de données à travers Python
@@ -73,16 +77,22 @@ page_data:
 
         Dans la première partie de ce projet, j'ai créé un graphique à aire empilées et joué sur différents aspects de sa mise en forme
         (couleur, type et taille de police, position de la légende, etc. ; Figure 1). Dans une seconde partie, j'ai produit un graphique
-        animé (bar chart race) et plusieurs graphiques interactifs (avec selector ou slicer). Enfin, j'ai réalisé sous Python puis sur
-        le site kepler.gl une visualisation de données spatiales (trajets des vols d'avion du deuxième jeu de données), elle aussi
-        interactive.
+        animé (bar chart race) et plusieurs graphiques interactifs (avec selector ou slicer ; Figure 2). Enfin, j'ai réalisé sous
+        Python puis sur le site kepler.gl une visualisation de données spatiales (trajets des vols d'avion du deuxième jeu de données ;
+        Figure 3).
         
         ### Illustrations
         
+        **Figure 1.** Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.
+
         ![Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.](:Projet_2_Figure_1.jpg){:data-align="center"}
         
+        **Figure 2.** Pourcentage de thèses soutenues en fonction de la discipline et de l'année de soutenance.
+
         ![Figure 2. Pourcentage de thèses soutenues en fonction de la discipline et de l'année de soutenance. Le slicer permet de sélectionner l'année de soutenance à visualiser.](:Projet_2_Figure_2.jpg){:data-align="center"}
         
+        **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
+
         ![Figure 3. Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.](:Projet_2_Figure_3.jpg){:data-align="center"}
         
         ### Compétences acquises
@@ -117,8 +127,12 @@ page_data:
         
         ### Illustrations
         
+        **Figure 1.** Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.
+
         ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
         
+        **Figure 2.** Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.
+
         ![Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.](:Projet_4_Figure_2.jpg){:data-align="center"}
         
         ### Compétences acquises
