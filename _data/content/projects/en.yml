@@ -20,30 +20,28 @@ page_data:
       color: "#62b462"
 
   list:
-    # Projet 1 - Manipulation et prétraitement de données
+    # Projet 1 : Manipulation et prétraitement de données
     - type: id_projets
       project_name: "Projet 1 : Manipulation et prétraitement de données"
-      project_excerpt: "Ce projet visait à maîtriser les techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
+      project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
       img: ":project1_thumb.jpg"
       img_title: "img title1"
       date: "2022-04-28"
       post: |
         ### Description du projet
-        Ce projet est le premier que j'ai réalisé au cours de ma formation de Data Analyst. Il avait pour but de manipuler un jeu de
-        données à l'aide de Python et de vérifier sa qualité. 
+        Ce projet avait pour but de manipuler un jeu de données à l'aide de Python et de vérifier sa qualité. Le jeu de données portait
+        sur les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL. Les variables incluaient notamment
+        le nom de l'auteur, le nom du directeur ou de la directrice de thèse, la date de soutenance, le titre de
+        la thèse, la discipline ou encore la langue de la thèse.
 
-        Le jeu de données portait sur les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL. Les variables
-        incluaient notamment le nom de l'auteur, le nom du directeur ou de la directrice de thèse, la date de soutenance, le titre de
-        la thèse, la discipline, la langue, le nom de l'établissement d'accueil ou encore l'année de première inscription en doctorat.
-
-        Le prétraitement des données a commencé par une étude des données manquantes. Cette étude incluait la détection des valeurs
-        manquantes et l'analyse de leur répartition dans les différentes variables (cf. diagramme UpSet en Figure 1 et corrélogramme
-        en Figure 2), afin d'identifier les causes possibles de l'absence des données. L'analyse s'est poursuivie par la détection de
-        possibles anomalies, comme par exemple un mois de soutenance sur-représenté par rapport aux autres ou encore des homonymes
-        identifiés comme étant une seule et même personne. Enfin, certaines valeurs aberrantes (outliers) ont été analysées en détail
-        pour déterminer si elles étaient valides ou erronées.
+        J'ai commencé le prétraitement des données par une étude des données manquantes. Le but était de détecter les valeurs
+        manquantes et d'analyser leur répartition dans les différentes variables (Figures 1 et 2), afin d'identifier les causes
+        possibles de l'absence de ces données. Je me suis ensuite intéressé aux potentielles anomalies présentes dans le jeu de données,
+        comme par exemple un mois de soutenance sur-représenté par rapport aux autres ou encore des homonymes identifiés comme étant
+        une seule et même personne. Enfin, j'ai analysé certaines valeurs aberrantes (outliers) pour déterminer si elles étaient
+        valides ou erronées. Mes analyses sont présentées sous la forme d'un notebook et d'un rapport.
         
-        ### Principales visualisations
+        ### Illustrations
         
         ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
         
@@ -60,7 +58,43 @@ page_data:
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%201_Quentin%20Fouch%C3%A9.pdf)
 
 
-    # Projet 4 - Analyse autonome d'un jeu de données
+    # Projet 2 : Visualisation de données
+    - type: id_projets
+      project_name: "Projet 2 : Visualisation de données"
+      project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant notamment des graphiques interactifs et des visualisations de données spatiales."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-06-01"
+      post: |
+        ### Description du projet
+        Le but de ce projet était de créer différents types de visualisations à partir de deux jeux de données. Le premier jeu portait
+        sur les métadonnées de thèses électroniques (cf. projet 1), le second sur les coordonnées des vols d'avion en provenance et
+        à destination de Russie ayant eu lieu au cours des mois de février et mars 2022, au moment du début de la guerre en Ukraine.
+
+        Dans la première partie de ce projet, j'ai créé un graphique à aire empilées et joué sur différents aspects de sa mise en forme
+        (couleur, type et taille de police, position de la légende, etc. ; Figure 1). Dans une seconde partie, j'ai produit un graphique
+        animé (bar chart race) et plusieurs graphiques interactifs (avec selector ou slicer). Enfin, j'ai réalisé sous Python puis sur
+        le site kepler.gl une visualisation de données spatiales (trajets des vols d'avion du deuxième jeu de données), elle aussi
+        interactive.
+        
+        ### Illustrations
+        
+        ![Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.](:Projet_2_Figure_1.jpg){:data-align="center"}
+        
+        ![Figure 2. Pourcentage de thèses soutenues en fonction de la discipline et de l'année de soutenance. Le slicer permet de sélectionner l'année de soutenance à visualiser.](:Projet_2_Figure_2.jpg){:data-align="center"}
+        
+        ![Figure 3. Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.](:Projet_2_Figure_3.jpg){:data-align="center"}
+        
+        ### Compétences acquises
+        - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
+        - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
+        
+        ### Liens
+        - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%201_Quentin%20Fouch%C3%A9.pdf)
+        - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%201_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Projet 4 : Analyse autonome d'un jeu de données
     - type: id_projets
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
       project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
@@ -81,7 +115,7 @@ page_data:
         de sciences humaines et sociales (disciplines I à IV) ont cité plus de références que ceux des sciences dures (disciplines V à X) (Figure 1), et (2) les citations
         d’articles scientifiques sont proportionnellement plus nombreuses en sciences dures qu’en SHS, contrairement aux citations de livres et chapitres de livres (Figure 2).
         
-        ### Principales visualisations
+        ### Illustrations
         
         ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
         
