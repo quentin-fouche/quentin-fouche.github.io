@@ -216,7 +216,7 @@ page_data:
       date: "2022-10-06"
       post: |
         ### Description du projet
-        Le thème de ce projet est l'apprentissage non-supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
+        Le thème de ce projet est l'apprentissage non supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
         telles que l'analyse en composantes principales (ACP) et l'analyse des correspondances multiples (ACM), puis des algorithmes
         de clustering tels que le k-means, la classification ascendante hiérarchique (CAH) et le DBSCAN ("Density-Based Spatial Clustering
         of Applications with Noise"). Les jeux de données analysés sont ceux classiquement utilisés pour apprendre ce genre d'analyse :
@@ -254,3 +254,68 @@ page_data:
 
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%205_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Projet 6 : Apprentissage supervisé
+    - type: id_projets
+      project_name: "Projet 6 : Apprentissage supervisé"
+      project_excerpt: "Ce projet s'intéressait à des algorithmes d'apprentissage supervisé comme les arbres de décision, le bagging et les forêts aléatoires, ainsi qu'aux métriques de performance et au tuning de ces modèles."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-11-13"
+      post: |
+        ### Description du projet
+        Le but de ce projet était de s'initier à l'utilisation, à l'optimisation et aux mesures de performance de plusieurs algorithmes
+        d'apprentissage supervisé. Les modèles étudiés étaient les arbres de décision (classification et régression), le bagging et les
+        forêts aléatoires.
+        
+        Ces modèles ont été appliqués sur cinq jeux de données différents. Le premier jeu contenait plusieurs mesures de la taille de
+        bec de pingouins appartenant à trois groupes différents. Le but était de créer un arbre de classification permettant de classer
+        les individus dans chaque groupe adéquatement (Figure 1). Un résultat de cette classification est illustré dans la Figure 2.
+
+        Le deuxième jeu de données portait sur des mesures de la taille de tumeurs chez des patients ayant un risque de développer un
+        cancer du sein. Sur la base de ces mesures, il fallait déterminer si la tumeur était bénigne ou maligne en utilisant à nouveau
+        un arbre de classification. La performance de l'arbre devait être mesurée et comparée en faisant varier le critère d'information.
+
+        Le troisième jeu de données contenait des informations sur la consommation d'essence de véhicules dont les caractéristiques
+        différaient. Un arbre de régression a été créé pour prédire la consommation d'essence à partir de ces caractéristiques (Figure 2).
+        La performance du modèle (MSE et RMSE) a été évaluée avec la technique de la validation croisée.
+
+        Le quatrième jeu de données traitait de la détection de maladies du foie chez des patients indiens, sur lesquels plusieurs mesures
+        physiologiques avaient été réalisées. Ces données ont été utilisées pour créer un bagging permettant de classer les patients selon
+        qu'ils sont porteurs ou non d'une maladie. La qualité du modèle a été évaluée en utilisant la performance OOB ainsi que la courbe
+        ROC-AUC (Figure 3). Une méthode de tuning a également été appliquée au moyen d'une grid searc, afin de déterminer quels étaient
+        les hyperparamètres du modèle qui maximisaient sa performance.
+
+        Enfin, la méthode de la forêt aléatoire a été utilisée sur des données décrivant la demande de locations de vélos en ville, en
+        fonction de plusieurs variables météorologiques et calendaires. Une forêt aléatoire a été créée pour prédire la demande en fonction
+        de ces variables.
+
+        J'ai rapporté toutes ces analyses dans un notebook, en précisant le fonctionnement et l'intérêt des techniques utilisées ainsi que
+        de certains concepts comme les erreurs de biais, de variance, ou encore la sensibilité et la spécificité d'un modèle.
+
+
+        ### Illustrations
+        
+        ![Figure 1. Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.](:Projet_6_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.
+
+        
+        ![Figure 2. Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification.](:Projet_6_Figure_2.png){:data-align="center"}
+        
+        **Figure 2.** Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification.
+
+
+        ![Figure 3. Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.](:Projet_6_Figure_3.png){:data-align="center"}
+        
+        **Figure 3.** Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.
+
+
+        ### Compétences acquises
+        - Appliquer une méthode d’apprentissage supervisé (forêts aléatoires) pour réaliser une tâche de classification
+        - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
+        
+
+        ### Liens
+        - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%206_Quentin%20Fouch%C3%A9.pdf)
