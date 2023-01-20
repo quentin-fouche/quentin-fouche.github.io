@@ -133,14 +133,7 @@ page_data:
         représentant les odd-ratios par un forest plot (Figure 2), une régression de Poisson, ainsi qu'une régression linéaire multiple,
         dont j'ai évalué les conditions de validité par un ensemble de graphiques présentés en Figure 3.
         
-
-
-
-
-
-
-
-
+        
         ### Illustrations
         
         ![Figure 1. Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants. La hauteur des blocs représente la proportion relative d’apprenants dans chaque catégorie d’IDH, la largeur représente la proportion relative d’hommes et de femmes. Le gradient de couleur indique la valeur des résidus (rouge : valeurs positives ; bleu : valeurs négatives).](:Projet_3_Figure_1.jpg){:data-align="center"}
@@ -212,3 +205,52 @@ page_data:
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%204_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%204_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Projet 5 : Réduction de dimensionalité et clustering
+    - type: id_projets
+      project_name: "Projet 5 : Réduction de dimensionalité et clustering"
+      project_excerpt: "Ce projet avait pour but d'apprendre à utiliser des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-10-06"
+      post: |
+        ### Description du projet
+        Le thème de ce projet est l'apprentissage non-supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
+        telles que l'analyse en composantes principales (ACP) et l'analyse des correspondances multiples (ACM), puis des algorithmes
+        de clustering tels que le k-means, la classification ascendante hiérarchique (CAH) et le DBSCAN ("Density-Based Spatial Clustering
+        of Applications with Noise"). Les jeux de données analysés sont ceux classiquement utilisés pour apprendre ce genre d'analyse :
+        un jeu de données sur les fleurs d'iris (longueur et largeur des sépales et des pétales de trois espèces différentes d'iris) et
+        un jeu de données sur les performances d'athlètes dans les dix disciplines du décathlon. Un troisième jeu de données fictif,
+        contenant des variables qualitatives sur des profils d'une application de rencontre, a été utilisé pour réaliser l'ACM.
+
+        J'ai réalisé chacune de ces analyses dans un notebook en Python, qui contient également quelques explications théoriques sur le
+        fonctionnement des techniques et algorithmes utilisés. J'ai illustré les résultats à l'aide de différents graphiques tels qu'un
+        cercle des corrélations pour l'ACP (Figure 1), une analyse des silouhette pour le k-means (Figure 2) et un dendrogramme pour la
+        CAH (Figure 3).
+
+
+        ### Illustrations
+        
+        ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; bleu : cosinus faible ; rouge : cosinus élevé).](:Projet_5_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes.
+
+        
+        ![Figure 2. Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris. Le diagramme de gauche représente le coefficient de silhouette de chaque individu dans chaque cluster. Le diagramme de droite représente la position des individus sur les deux premières composantes de l'ACP, à partir desquels le clustering a été réalisé.](:Projet_5_Figure_2.png){:data-align="center"}
+        
+        **Figure 2.** Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris.
+
+
+        ![Figure 3. Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon. Les feuilles de l'arbre représentent les athlètes, qui sont répartis dans quatre clusters de différentes couleurs. Ces clusters ont été définis en fixant le seuil de dissimilarité à 3.02.](:Projet_5_Figure_3.png){:data-align="center"}
+        
+        **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
+
+
+        ### Compétences acquises
+        - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
+        - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
+        
+
+        ### Liens
+        - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%205_Quentin%20Fouch%C3%A9.pdf)
