@@ -319,3 +319,38 @@ page_data:
 
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%206_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Projet 7 : Business Intelligence
+    - type: id_projets
+      project_name: "Projet 7 : Business Intelligence"
+      project_excerpt: "Ce dernier projet était une initiation à la Business Intelligence. Le but était d'analyser un jeu de données à l'aide de Power BI, de créer un tableau de bord et de le présenter à l'oral."
+      img: ":project1_thumb.jpg"
+      img_title: "img title1"
+      date: "2022-11-13"
+      post: |
+        ### Description du projet
+        La focale de ce projet était la Business Intelligence et la création d'un tableau de bord sur le logiciel Power BI.
+        Le jeu de données traité était une base de ressources humaines d'une entreprise fictive, qui décrivait la situation de chaque
+        salarié (e.g. poste occupé, ancienneté, salaire).
+
+        Le tableau de bord que j'ai créé était orienté sur l'analyse de la parité hommes-femmes au sein de l'entreprise (Figure 1). Il permettait
+        notamment, grâce à des éléments interactifs, d'identifier les secteurs et le type de poste où la parité n'était pas respectée,
+        d'évaluer l'égalité salariale et de comparer l'évolution des salaires avec l'ancienneté. Ce tableau de bord a fait l'objet d'une
+        présentation orale devant les autres étudiants de la formation.
+
+
+        ### Tableau de bord
+        
+        ![Figure 1. Tableau de bord sur des données de ressources humaines d'une entreprise fictive.](:Projet_7_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Tableau de bord sur des données de ressources humaines d'une entreprise fictive.
+
+        
+        ### Compétences acquises
+        - Concevoir le cahier des charges d’un tableau de bord
+        - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
+        
+
+        ### Liens
+        - [Tableau de bord](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%207_Quentin%20Fouch%C3%A9.pdf)
