@@ -131,7 +131,7 @@ post-list:
 # for home layout
 home:
   title: Welcome
-  button_name: Home
+  button_name: Accueil
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
 
@@ -150,14 +150,14 @@ about:
 # for links layout
 links:
   title: Links
-  button_name: Links
+  button_name: Liens
   link_text: Web site
   info_text: Info
 
 # for projects layout
 projects:
   title: Projects
-  button_name: Projects
+  button_name: Projets
   read_more_text: Read more
   read_less_text: Read less
 
