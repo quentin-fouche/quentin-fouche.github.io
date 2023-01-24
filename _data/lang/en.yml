@@ -149,14 +149,14 @@ about:
 
 # for links layout
 links:
-  title: Liens
+  title: Links
   button_name: Liens
   link_text: Site web
   info_text: Info
 
 # for projects layout
 projects:
-  title: Projets
+  title: Projects
   button_name: Projets
   read_more_text: Afficher plus
   read_less_text: Afficher moins
