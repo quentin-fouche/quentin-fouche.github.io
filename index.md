@@ -37,7 +37,4 @@ img: ":home-heading.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+Ce portfolio présente les projets que j'ai réalisés en 2022 au cours du DU Data Analyst (CY Tech).
