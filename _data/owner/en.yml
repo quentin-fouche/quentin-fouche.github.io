@@ -14,10 +14,11 @@ name: "Quentin Fouché"
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
   top_header_line1: "Bienvenue sur mon portfolio"
+  top_header_line2: "Test"
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "Ce portfolio présente les projets d'analyse que j'ai réalisés au cours du DU Data Analyst (CY Tech)."
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
