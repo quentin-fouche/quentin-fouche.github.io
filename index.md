@@ -37,4 +37,8 @@ img: ":home-heading.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-Je suis Quentin Fouché. Titulaire d'un doctorat en comportement animal et d'un Diplôme Universitaire de Data Analyst, je suis actuellement à recherche d'un emploi en Data Science. Dans ce portfolio, je présente les sept projets que j'ai réalisés au cours du DU Data Analyst (CY Tech) en 2022, ainsi que les cinq articles que j'ai publiés pendant ma thèse. Ces informations sont accessibles dans la rubrique "Projets" à gauche de l'écran. Bonne lecture !
+**Bonjour,**
+Je suis Quentin Fouché.
+Titulaire d'un doctorat en comportement animal et d'un Diplôme Universitaire de Data Analyst, je suis actuellement à recherche d'un emploi en Data Science.
+Dans ce portfolio, je présente les sept projets que j'ai réalisés au cours du DU Data Analyst (CY Tech) en 2022, ainsi que les cinq articles que j'ai publiés pendant ma thèse. Ces informations sont accessibles dans la rubrique "Projets" du menu à gauche.
+Bonne lecture !
