@@ -58,8 +58,8 @@ page_data:
         comme par exemple un mois de soutenance sur-représenté par rapport aux autres ou encore des homonymes identifiés comme étant
         une seule et même personne. Enfin, j'ai analysé certaines valeurs aberrantes (outliers) pour déterminer si elles étaient
         valides ou erronées. Mes analyses sont présentées sous la forme d'un notebook et d'un rapport.
-        
-
+        <br>
+        <br>
         ### Illustrations
 
         ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
