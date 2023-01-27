@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets et publications"
-    info: "Les analyses des projets ont été réalisées en Python et celles des publications en R. Chaque projet et publication contient une description du contenu, des objectifs et des données analysées, quelques illustrations, les principales compétences développées et un lien vers le notebook du projet (accompagné parfois d'un rapport) ou vers la version pré-publication de l'article."
+    info: "Les analyses des projets ont été réalisées en Python et celles des publications en R. Chaque projet et publication contient une description du contenu, des objectifs et des données analysées, quelques illustrations, les principales compétences développées et un lien vers le notebook du projet (accompagné parfois d'un rapport) ou vers l'article en version pré-publication."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading2.jpg"
@@ -60,6 +60,7 @@ page_data:
         valides ou erronées. Mes analyses sont présentées sous la forme d'un notebook et d'un rapport.
         <br>
         <br>
+        
         ### Illustrations
 
         ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
@@ -73,6 +74,7 @@ page_data:
         **Figure 2.** Corrélogramme de valeurs manquantes.
         <br>
         <br>
+        
         ### Compétences acquises
         - Savoir charger et décrire un jeu de données à travers Python
         - Savoir manipuler une base de données relationnelles (SQL)
@@ -80,6 +82,7 @@ page_data:
         - Manipuler et représenter la distribution de variables de différents types (continues, binaires, dates, etc.)
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%201_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%201_Quentin%20Fouch%C3%A9.pdf)
@@ -105,6 +108,7 @@ page_data:
         Figure 3).
         <br>
         <br>
+        
         ### Illustrations
         
         ![Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.](:Projet_2_Figure_1.jpg){:data-align="center"}
@@ -124,11 +128,13 @@ page_data:
         **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
         <br>
         <br>
+        
         ### Compétences acquises
         - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
         - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%202_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%202_Quentin%20Fouch%C3%A9.pdf)
@@ -155,6 +161,7 @@ page_data:
         dont j'ai évalué les conditions de validité par un ensemble de graphiques présentés en Figure 3.
         <br>
         <br>
+        
         ### Illustrations
         
         ![Figure 1. Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants. La hauteur des blocs représente la proportion relative d’apprenants dans chaque catégorie d’IDH, la largeur représente la proportion relative d’hommes et de femmes. Le gradient de couleur indique la valeur des résidus (rouge : valeurs positives ; bleu : valeurs négatives).](:Projet_3_Figure_1.jpg){:data-align="center"}
@@ -174,12 +181,14 @@ page_data:
         **Figure 3.** Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH.
         <br>
         <br>
+        
         ### Compétences acquises
         - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
         - Identifier les situations pour lesquels des tests non-paramétriques sont requis
         - Savoir transformer des données pour retomber dans les conditions de validité d’un test
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%203_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%203_Quentin%20Fouch%C3%A9.pdf)
@@ -207,6 +216,7 @@ page_data:
         d’articles scientifiques sont proportionnellement plus nombreuses en sciences dures qu’en SHS, contrairement aux citations de livres et chapitres de livres (Figure 2).
         <br>
         <br>
+        
         ### Illustrations
         
         ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
@@ -220,12 +230,14 @@ page_data:
         **Figure 2.** Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.
         <br>
         <br>
+        
         ### Compétences acquises
         - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
         - Structurer de manière logique la restitution des résultats des analyses
         - Produire un document en Latex
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%204_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%204_Quentin%20Fouch%C3%A9.pdf)
@@ -254,6 +266,7 @@ page_data:
         CAH (Figure 3).
         <br>
         <br>
+        
         ### Illustrations
         
         ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; bleu : cosinus faible ; rouge : cosinus élevé).](:Projet_5_Figure_1.png){:data-align="center"}
@@ -273,11 +286,13 @@ page_data:
         **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
         <br>
         <br>
+        
         ### Compétences acquises
         - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
         - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%205_Quentin%20Fouch%C3%A9.pdf)
 
@@ -321,6 +336,7 @@ page_data:
         de certains concepts comme les erreurs de biais, de variance, ou encore la sensibilité et la spécificité d'un modèle.
         <br>
         <br>
+        
         ### Illustrations
         
         ![Figure 1. Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.](:Projet_6_Figure_1.png){:data-align="center"}
@@ -340,11 +356,13 @@ page_data:
         **Figure 3.** Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.
         <br>
         <br>
+        
         ### Compétences acquises
         - Appliquer une méthode d’apprentissage supervisé (forêts aléatoires) pour réaliser une tâche de classification
         - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
         <br>
         <br>
+        
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%206_Quentin%20Fouch%C3%A9.pdf)
 
@@ -368,6 +386,7 @@ page_data:
         présentation orale devant les autres étudiants de la formation.
         <br>
         <br>
+        
         ### Tableau de bord
         
         ![Figure 1. Tableau de bord sur des données de ressources humaines d'une entreprise fictive.](:Projet_7_Figure_1.jpg){:data-align="center"}
@@ -375,10 +394,12 @@ page_data:
         **Figure 1.** Tableau de bord sur des données de ressources humaines d'une entreprise fictive.
         <br>
         <br>
+        
         ### Compétences acquises
         - Concevoir le cahier des charges d’un tableau de bord
         - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
         <br>
         <br>
+        
         ### Liens
         - [Tableau de bord](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Dashboard_Quentin%20Fouch%C3%A9.pdf)
