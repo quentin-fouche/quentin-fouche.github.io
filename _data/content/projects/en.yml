@@ -61,7 +61,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
         
         ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
 
@@ -107,7 +106,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
         
         ![Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.](:Projet_2_Figure_1.jpg){:data-align="center"}
         
@@ -158,7 +156,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
 
         ![Figure 1. Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants. La hauteur des blocs représente la proportion relative d’apprenants dans chaque catégorie d’IDH, la largeur représente la proportion relative d’hommes et de femmes. Le gradient de couleur indique la valeur des résidus (rouge : valeurs positives ; bleu : valeurs négatives).](:Projet_3_Figure_1.jpg){:data-align="center"}
         
@@ -211,7 +208,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
         
         ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
         
@@ -259,7 +255,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
         
         ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; bleu : cosinus faible ; rouge : cosinus élevé).](:Projet_5_Figure_1.png){:data-align="center"}
         
@@ -327,7 +322,6 @@ page_data:
         <br>
         
         ### Illustrations
-        <br>
         
         ![Figure 1. Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.](:Projet_6_Figure_1.png){:data-align="center"}
         
@@ -375,7 +369,6 @@ page_data:
         <br>
         
         ### Tableau de bord
-        <br>
         
         ![Figure 1. Tableau de bord sur des données de ressources humaines d'une entreprise fictive.](:Projet_7_Figure_1.jpg){:data-align="center"}
         
