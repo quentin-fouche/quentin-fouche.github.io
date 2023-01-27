@@ -14,28 +14,28 @@ page_data:
   category:
     - title: "Nettoyage de données"
       type: id_data_cleaning
-      color: "#gray"
+      color: "gray"
     - title: "Visualisation de données"
       type: id_visualisation
-      color: "#gray"
+      color: "gray"
     - title: "Statistiques"
       type: id_statistiques
-      color: "#gray"
+      color: "gray"
     - title: "Rédaction de rapport"
       type: id_redaction
-      color: "#gray"
+      color: "gray"
     - title: "Réduction de dimensionalité et clustering"
       type: id_reduc_dim_clustering
-      color: "#gray"
+      color: "gray"
     - title: "Apprentissage supervisé"
       type: id_app_supervise
-      color: "#gray"
+      color: "gray"
     - title: "Business Intelligence"
       type: id_bi
-      color: "#gray"
+      color: "gray"
     - title: "Publication scientifique"
       type: id_publi
-      color: "#gray"
+      color: "gray"
 
   list:
     # Projet 1 : Manipulation et prétraitement de données
