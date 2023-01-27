@@ -37,6 +37,8 @@ img: ":home-heading.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
+Bonjour,
+
 Je suis Quentin Fouché, titulaire d'un doctorat en comportement animal (Université de Lille) et d'un Diplôme Universitaire de Data Analyst (CY Tech).
 Je suis actuellement à recherche d'un emploi en Data Science.
 Dans ce portfolio, je présente les sept projets que j'ai réalisés au cours du DU Data Analyst, ainsi que les cinq articles que j'ai publiés pendant ma thèse. Ces informations sont accessibles dans la rubrique "Projets" dans le menu à gauche.
