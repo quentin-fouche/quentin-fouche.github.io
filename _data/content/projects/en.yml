@@ -42,7 +42,7 @@ page_data:
     - type: id_data_cleaning
       project_name: "Projet 1 : Manipulation et prétraitement de données"
       project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_1_Figure_1.jpg"
       img_title: "img title1"
       date: "2022-04-28"
       post: |
@@ -88,7 +88,7 @@ page_data:
     - type: id_visualisation
       project_name: "Projet 2 : Visualisation de données"
       project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant notamment des graphiques interactifs et des visualisations de données spatiales."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_2_Figure_1.jpg"
       img_title: "img title1"
       date: "2022-06-01"
       post: |
@@ -135,7 +135,7 @@ page_data:
     - type: id_statistiques
       project_name: "Projet 3 : Statistiques"
       project_excerpt: "Ce projet traite de l'application des tests statistiques les plus communément utilisés en analyse de données (Chi2, tests de Student et de Mann-Whitney, ANOVA, tests de corrélation) ainsi que des régréssions linéaires et logistiques (loi binomiale, loi de Poisson, odd-ratios)."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_3_Figure_2.jpg"
       img_title: "img title1"
       date: "2022-07-08"
       post: |
@@ -184,7 +184,7 @@ page_data:
     - type: id_redaction
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
       project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_4_Figure_2.jpg"
       img_title: "img title1"
       date: "2022-09-01"
       post: |
@@ -229,7 +229,7 @@ page_data:
     - type: id_reduc_dim_clustering
       project_name: "Projet 5 : Réduction de dimensionalité et clustering"
       project_excerpt: "Ce projet avait pour but d'apprendre à utiliser des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_5_Figure_1.png"
       img_title: "img title1"
       date: "2022-10-06"
       post: |
@@ -278,7 +278,7 @@ page_data:
     - type: id_app_supervise
       project_name: "Projet 6 : Apprentissage supervisé"
       project_excerpt: "Ce projet s'intéressait à des algorithmes d'apprentissage supervisé comme les arbres de décision, le bagging et les forêts aléatoires, ainsi qu'aux métriques de performance et au tuning de ces modèles."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_6_Figure_2.png"
       img_title: "img title1"
       date: "2022-11-13"
       post: |
@@ -343,7 +343,7 @@ page_data:
     - type: id_bi
       project_name: "Projet 7 : Business Intelligence"
       project_excerpt: "Ce dernier projet était une initiation à la Business Intelligence. Le but était d'analyser un jeu de données à l'aide de Power BI, de créer un tableau de bord et de le présenter à l'oral."
-      img: ":project1_thumb.jpg"
+      img: ":Projet_7_Figure_1.jpg"
       img_title: "img title1"
       date: "2022-12-04"
       post: |
