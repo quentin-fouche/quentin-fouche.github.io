@@ -43,7 +43,7 @@ page_data:
       project_name: "Projet 1 : Manipulation et prétraitement de données"
       project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
       img: ":Projet_1_Figure_1.jpg"
-      img_title: "Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
+      img_title: "Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
       date: "2022-04-28"
       post: |
         ### Description du projet
@@ -67,6 +67,7 @@ page_data:
         **Figure 1.** Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables.
         <br>
         <br>
+        
         ![Figure 2. Corrélogramme des valeurs manquantes entre deux variables, pour chaque paire de variables parmi les six qui contiennent le plus de données manquantes. Le gradient de couleur indique le degré de corrélation entre les variables (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
         
         **Figure 2.** Corrélogramme de valeurs manquantes.
@@ -89,7 +90,7 @@ page_data:
       project_name: "Projet 2 : Visualisation de données"
       project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant notamment des graphiques interactifs et des visualisations de données spatiales."
       img: ":Projet_2_Figure_1.jpg"
-      img_title: "Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline."
+      img_title: "Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline."
       date: "2022-06-01"
       post: |
         ### Description du projet
@@ -102,30 +103,32 @@ page_data:
         animé (bar chart race) et plusieurs graphiques interactifs (avec selector ou slicer ; Figure 2). Enfin, j'ai réalisé sous
         Python puis sur le site kepler.gl une visualisation de données spatiales (trajets des vols d'avion du deuxième jeu de données ;
         Figure 3).
-
-        
+        <br>
+        <br>
         ### Illustrations
         
         ![Figure 1. Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.](:Projet_2_Figure_1.jpg){:data-align="center"}
         
         **Figure 1.** Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline.
-
-
+        <br>
+        <br>
+        
         ![Figure 2. Pourcentage de thèses soutenues en fonction de la discipline et de l'année de soutenance. Le slicer permet de sélectionner l'année de soutenance à visualiser.](:Projet_2_Figure_2.jpg){:data-align="center"}
         
         **Figure 2.** Pourcentage de thèses soutenues en fonction de la discipline et de l'année de soutenance.
-
+        <br>
+        <br>
 
         ![Figure 3. Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.](:Projet_2_Figure_3.jpg){:data-align="center"}
         
         **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
-
-
+        <br>
+        <br>
         ### Compétences acquises
         - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
         - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
-        
-
+        <br>
+        <br>
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%202_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%202_Quentin%20Fouch%C3%A9.pdf)
@@ -136,7 +139,7 @@ page_data:
       project_name: "Projet 3 : Statistiques"
       project_excerpt: "Ce projet traite de l'application des tests statistiques les plus communément utilisés en analyse de données (Chi2, tests de Student et de Mann-Whitney, ANOVA, tests de corrélation) ainsi que des régréssions linéaires et logistiques (loi binomiale, loi de Poisson, odd-ratios)."
       img: ":Projet_3_Figure_2.jpg"
-      img_title: "Figure 2. Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références."
+      img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine (B : bas ; I : intermédiaire ; TH : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
       date: "2022-07-08"
       post: |
         ### Description du projet
@@ -150,31 +153,33 @@ page_data:
         des tests de Student et de Mann-Whitney et une ANOVA. J'ai également réalisé une régression logistique avec une loi binomiale, en
         représentant les odd-ratios par un forest plot (Figure 2), une régression de Poisson, ainsi qu'une régression linéaire multiple,
         dont j'ai évalué les conditions de validité par un ensemble de graphiques présentés en Figure 3.
-        
-        
+        <br>
+        <br>
         ### Illustrations
         
         ![Figure 1. Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants. La hauteur des blocs représente la proportion relative d’apprenants dans chaque catégorie d’IDH, la largeur représente la proportion relative d’hommes et de femmes. Le gradient de couleur indique la valeur des résidus (rouge : valeurs positives ; bleu : valeurs négatives).](:Projet_3_Figure_1.jpg){:data-align="center"}
         
         **Figure 1.** Valeur des résidus du test de chi2 sur l’indépendance entre l’IDH (Indice de Développement Humain) et le genre vis-à-vis du nombre d’apprenants.
-
-
+        <br>
+        <br>
+        
         ![Figure 2. Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.](:Projet_3_Figure_2.jpg){:data-align="center"}
         
         **Figure 2.** Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.
-
-
+        <br>
+        <br>
+        
         ![Figure 3. Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH. A. Résidus en fonction des valeurs ajustées. La ligne en pointillé représente la droite "y = 0". B. Quantiles observés en fonction des quantiles théoriques. La ligne en pointillé représente la droite "y = x". C. Racine carrée de la valeur absolue des résidus standardisés en fonction des valeurs ajustées. D. Résidus standardisés en fonction du leverage. La ligne en pointillé représente la droite "y = 0".](:Projet_3_Figure_3.jpg){:data-align="center"}
         
         **Figure 3.** Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH.
-
-
+        <br>
+        <br>
         ### Compétences acquises
         - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
         - Identifier les situations pour lesquels des tests non-paramétriques sont requis
         - Savoir transformer des données pour retomber dans les conditions de validité d’un test
-        
-
+        <br>
+        <br>
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%203_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%203_Quentin%20Fouch%C3%A9.pdf)
@@ -185,7 +190,7 @@ page_data:
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
       project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
       img: ":Projet_4_Figure_2.jpg"
-      img_title: "Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence."
+      img_title: "Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence."
       date: "2022-09-01"
       post: |
         ### Description du projet
@@ -200,26 +205,27 @@ page_data:
         des régressions linéaires et des tests de corrélation de Pearson. Les deux principaux résultats sont illustrés dans les deux figures ci-dessous : (1) les doctorants
         de sciences humaines et sociales (disciplines I à IV) ont cité plus de références que ceux des sciences dures (disciplines V à X) (Figure 1), et (2) les citations
         d’articles scientifiques sont proportionnellement plus nombreuses en sciences dures qu’en SHS, contrairement aux citations de livres et chapitres de livres (Figure 2).
-        
-
+        <br>
+        <br>
         ### Illustrations
         
         ![Figure 1. Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.](:Projet_4_Figure_1.jpg){:data-align="center"}
         
         **Figure 1.** Nombre moyen de références citées par thèse en fonction de la discipline de la thèse. Les barres d’erreurs représentent l’erreur standard à la moyenne.
-
+        <br>
+        <br>
         
         ![Figure 2. Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.](:Projet_4_Figure_2.jpg){:data-align="center"}
         
         **Figure 2.** Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.
-
-
+        <br>
+        <br>
         ### Compétences acquises
         - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
         - Structurer de manière logique la restitution des résultats des analyses
         - Produire un document en Latex
-        
-
+        <br>
+        <br>
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%204_Quentin%20Fouch%C3%A9.pdf)
         - [Rapport](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Rapport%20projet%204_Quentin%20Fouch%C3%A9.pdf)
@@ -230,7 +236,7 @@ page_data:
       project_name: "Projet 5 : Réduction de dimensionalité et clustering"
       project_excerpt: "Ce projet avait pour but d'apprendre à utiliser des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
       img: ":Projet_5_Figure_1.png"
-      img_title: "Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes."
+      img_title: "Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes."
       date: "2022-10-06"
       post: |
         ### Description du projet
@@ -246,30 +252,32 @@ page_data:
         fonctionnement des techniques et algorithmes utilisés. J'ai illustré les résultats à l'aide de différents graphiques tels qu'un
         cercle des corrélations pour l'ACP (Figure 1), une analyse des silouhette pour le k-means (Figure 2) et un dendrogramme pour la
         CAH (Figure 3).
-
-
+        <br>
+        <br>
         ### Illustrations
         
         ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; bleu : cosinus faible ; rouge : cosinus élevé).](:Projet_5_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes.
-
+        <br>
+        <br>
         
         ![Figure 2. Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris. Le diagramme de gauche représente le coefficient de silhouette de chaque individu dans chaque cluster. Le diagramme de droite représente la position des individus sur les deux premières composantes de l'ACP, à partir desquels le clustering a été réalisé.](:Projet_5_Figure_2.png){:data-align="center"}
         
         **Figure 2.** Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris.
-
-
+        <br>
+        <br>
+        
         ![Figure 3. Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon. Les feuilles de l'arbre représentent les athlètes, qui sont répartis dans quatre clusters de différentes couleurs. Ces clusters ont été définis en fixant le seuil de dissimilarité à 3.02.](:Projet_5_Figure_3.png){:data-align="center"}
         
         **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
-
-
+        <br>
+        <br>
         ### Compétences acquises
         - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
         - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
-        
-
+        <br>
+        <br>
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%205_Quentin%20Fouch%C3%A9.pdf)
 
@@ -279,7 +287,7 @@ page_data:
       project_name: "Projet 6 : Apprentissage supervisé"
       project_excerpt: "Ce projet s'intéressait à des algorithmes d'apprentissage supervisé comme les arbres de décision, le bagging et les forêts aléatoires, ainsi qu'aux métriques de performance et au tuning de ces modèles."
       img: ":Projet_6_Figure_2.png"
-      img_title: "Figure 2. Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification."
+      img_title: "Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification."
       date: "2022-11-13"
       post: |
         ### Description du projet
@@ -311,30 +319,32 @@ page_data:
 
         J'ai rapporté toutes ces analyses dans un notebook, en précisant le fonctionnement et l'intérêt des techniques utilisées ainsi que
         de certains concepts comme les erreurs de biais, de variance, ou encore la sensibilité et la spécificité d'un modèle.
-
-
+        <br>
+        <br>
         ### Illustrations
         
         ![Figure 1. Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.](:Projet_6_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Arbre de classification de profondeur 2 utilisé pour classifier des pingouins en fonction de la profondeur et de la longueur de leur bec. Le critère d'information utilisé est l'indice de Gini.
-
+        <br>
+        <br>
         
         ![Figure 2. Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification.](:Projet_6_Figure_2.png){:data-align="center"}
         
         **Figure 2.** Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification.
-
-
+        <br>
+        <br>
+        
         ![Figure 3. Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.](:Projet_6_Figure_3.png){:data-align="center"}
         
         **Figure 3.** Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.
-
-
+        <br>
+        <br>
         ### Compétences acquises
         - Appliquer une méthode d’apprentissage supervisé (forêts aléatoires) pour réaliser une tâche de classification
         - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
-        
-
+        <br>
+        <br>
         ### Liens
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%206_Quentin%20Fouch%C3%A9.pdf)
 
@@ -344,7 +354,7 @@ page_data:
       project_name: "Projet 7 : Business Intelligence"
       project_excerpt: "Ce dernier projet était une initiation à la Business Intelligence. Le but était d'analyser un jeu de données à l'aide de Power BI, de créer un tableau de bord et de le présenter à l'oral."
       img: ":Projet_7_Figure_1.jpg"
-      img_title: "Figure 1. Tableau de bord sur des données de ressources humaines d'une entreprise fictive."
+      img_title: "Tableau de bord sur des données de ressources humaines d'une entreprise fictive."
       date: "2022-12-04"
       post: |
         ### Description du projet
@@ -356,19 +366,19 @@ page_data:
         notamment, grâce à des éléments interactifs, d'identifier les secteurs et le type de poste où la parité n'était pas respectée,
         d'évaluer l'égalité salariale et de comparer l'évolution des salaires avec l'ancienneté. Ce tableau de bord a fait l'objet d'une
         présentation orale devant les autres étudiants de la formation.
-
-
+        <br>
+        <br>
         ### Tableau de bord
         
         ![Figure 1. Tableau de bord sur des données de ressources humaines d'une entreprise fictive.](:Projet_7_Figure_1.jpg){:data-align="center"}
         
         **Figure 1.** Tableau de bord sur des données de ressources humaines d'une entreprise fictive.
-
-        
+        <br>
+        <br>
         ### Compétences acquises
         - Concevoir le cahier des charges d’un tableau de bord
         - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
-        
-
+        <br>
+        <br>
         ### Liens
         - [Tableau de bord](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Dashboard_Quentin%20Fouch%C3%A9.pdf)
