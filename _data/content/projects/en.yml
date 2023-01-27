@@ -4,24 +4,42 @@
 ###########################################################
 page_data:
   main:
-    header: "Projets d'analyse"
-    info: "Cette page présente les différents projets d'analyse que j'ai réalisés en 2022 au cours du DU Data Analyst (CY Tech)."
+    header: "Projets et publications"
+    info: "Les analyses des projets ont été réalisées en Python et celles des publications en R. Chaque projet et publication contient une description du contenu, des objectifs et des données analysées, quelques illustrations et un lien vers le notebook du projet (accompagné parfois d'un rapport) ou vers l'article publié (en version pré-publication). Les compétences techniques développées dans chaque projet sont également listées."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
     back_color: "lightblue"
 
   category:
-    - title: "Example"
-      type: id_example
-      color: "gray"
-    - title: "Projets"
-      type: id_projets
+    - title: "Nettoyage de données"
+      type: id_data_cleaning
+      color: "#62b462"
+    - title: "Visualisation de données"
+      type: id_visualisation
+      color: "#62b462"
+    - title: "Statistiques"
+      type: id_statistiques
+      color: "#62b462"
+    - title: "Rédaction de rapport"
+      type: id_redaction
+      color: "#62b462"
+    - title: "Réduction de dimensionalité et clustering"
+      type: id_reduc_dim_clustering
+      color: "#62b462"
+    - title: "Apprentissage supervisé"
+      type: id_app_supervise
+      color: "#62b462"
+    - title: "Business Intelligence"
+      type: id_bi
+      color: "#62b462"
+    - title: "Publication scientifique"
+      type: id_publi
       color: "#62b462"
 
   list:
     # Projet 1 : Manipulation et prétraitement de données
-    - type: id_projets
+    - type: id_data_cleaning
       project_name: "Projet 1 : Manipulation et prétraitement de données"
       project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
       img: ":project1_thumb.jpg"
@@ -67,7 +85,7 @@ page_data:
 
 
     # Projet 2 : Visualisation de données
-    - type: id_projets
+    - type: id_visualisation
       project_name: "Projet 2 : Visualisation de données"
       project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant notamment des graphiques interactifs et des visualisations de données spatiales."
       img: ":project1_thumb.jpg"
@@ -114,7 +132,7 @@ page_data:
 
 
     # Projet 3 : Statistiques
-    - type: id_projets
+    - type: id_statistiques
       project_name: "Projet 3 : Statistiques"
       project_excerpt: "Ce projet traite de l'application des tests statistiques les plus communément utilisés en analyse de données (Chi2, tests de Student et de Mann-Whitney, ANOVA, tests de corrélation) ainsi que des régréssions linéaires et logistiques (loi binomiale, loi de Poisson, odd-ratios)."
       img: ":project1_thumb.jpg"
@@ -163,7 +181,7 @@ page_data:
 
 
     # Projet 4 : Analyse autonome d'un jeu de données
-    - type: id_projets
+    - type: id_redaction
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
       project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
       img: ":project1_thumb.jpg"
@@ -208,7 +226,7 @@ page_data:
 
 
     # Projet 5 : Réduction de dimensionalité et clustering
-    - type: id_projets
+    - type: id_reduc_dim_clustering
       project_name: "Projet 5 : Réduction de dimensionalité et clustering"
       project_excerpt: "Ce projet avait pour but d'apprendre à utiliser des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
       img: ":project1_thumb.jpg"
@@ -257,7 +275,7 @@ page_data:
 
 
     # Projet 6 : Apprentissage supervisé
-    - type: id_projets
+    - type: id_app_supervise
       project_name: "Projet 6 : Apprentissage supervisé"
       project_excerpt: "Ce projet s'intéressait à des algorithmes d'apprentissage supervisé comme les arbres de décision, le bagging et les forêts aléatoires, ainsi qu'aux métriques de performance et au tuning de ces modèles."
       img: ":project1_thumb.jpg"
@@ -322,7 +340,7 @@ page_data:
 
 
     # Projet 7 : Business Intelligence
-    - type: id_projets
+    - type: id_bi
       project_name: "Projet 7 : Business Intelligence"
       project_excerpt: "Ce dernier projet était une initiation à la Business Intelligence. Le but était d'analyser un jeu de données à l'aide de Power BI, de créer un tableau de bord et de le présenter à l'oral."
       img: ":project1_thumb.jpg"
