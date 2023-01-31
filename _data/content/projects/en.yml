@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets et publications"
-    info: "Les analyses des projets ont été réalisées en Python et celles des publications en R. Chaque projet et publication contient une description du contenu, des objectifs et des données analysées, quelques illustrations, les principales compétences développées et un lien vers le notebook du projet (accompagné parfois d'un rapport) ou vers l'article en version pré-publication."
+    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, quelques illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent une description du sujet et des analyses, des illustrations, ma contribution personnelle et un lien vers l'article en ligne ou en preprint."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading2.jpg"
@@ -17,6 +17,9 @@ page_data:
       color: "gray"
     - title: "Publication"
       type: id_publication
+      color: "gray"
+    - these: "Thèse"
+      type: id_these
       color: "gray"
 
   list:
@@ -55,7 +58,7 @@ page_data:
         **Figure 2.** Corrélogramme de valeurs manquantes.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Savoir charger et décrire un jeu de données à travers Python
         - Savoir manipuler une base de données relationnelles (SQL)
         - Savoir traiter des valeurs manquantes ou aberrantes
@@ -106,7 +109,7 @@ page_data:
         **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
         - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
         <br>
@@ -156,7 +159,7 @@ page_data:
         **Figure 3.** Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
         - Identifier les situations pour lesquels des tests non-paramétriques sont requis
         - Savoir transformer des données pour retomber dans les conditions de validité d’un test
@@ -202,7 +205,7 @@ page_data:
         **Figure 2.** Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
         - Structurer de manière logique la restitution des résultats des analyses
         - Produire un document en Latex
@@ -255,7 +258,7 @@ page_data:
         **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
         - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
         <br>
@@ -322,7 +325,7 @@ page_data:
         **Figure 3.** Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Appliquer une méthode d’apprentissage supervisé (forêts aléatoires) pour réaliser une tâche de classification
         - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
         <br>
@@ -357,10 +360,59 @@ page_data:
         **Figure 1.** Tableau de bord sur des données de ressources humaines d'une entreprise fictive.
         <br>
         
-        ### Compétences acquises
+        ### Compétences mises en oeuvre
         - Concevoir le cahier des charges d’un tableau de bord
         - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
         <br>
         
         ### Liens
         - [Tableau de bord](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Dashboard_Quentin%20Fouch%C3%A9.pdf)
+
+
+    # Article 1 : Scientific Reports (2018)
+    - type: id_publication
+      project_name: "Article 1 : Scientific Reports (2018)"
+      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Scientific Reports en 2018. Il traite des vecteurs d'agrégation chez les asticots nécrophages, c'est-à-dire des stimuli qui permettent aux asticots de former des groupes."
+      img: ""
+      img_title: ""
+      date: "2018-02-10"
+      post: |
+        ### Sujet
+        Le titre de cet article est "Communication in necrophagous Diptera larvae: interspecific effect of cues left behind by maggots and implications in their
+        aggregation". J'y rapporte une étude sur la formation des groupes (ou agrégation) chez les asticots nécrophages. Ces larves de mouche sont des insectes grégaires,
+        qui s'alimentent et se développent sur des cadavres en décomposition en formant des groupes. Ces groupes, qui peuvent contenir plusieurs milliers d'individus
+        d'espèces différentes, facilitent l'alimentation des asticots et accélèrent leur développement. Dans cette étude, je me suis intéressé aux vecteurs chimiques
+        qui permettent à différentes espèces d'asticots de se regrouper : à l'aide d'expériences de choix binaires, j'ai montré que les asticots laissent des traces
+        chimiques qui retiennent à la fois leurs congénères et les individus d'autres espèces.
+        <br>
+        
+        ### Analyses
+        Les analyses réalisées sont hypothético-déductives. Le principe des expériences était de déposer un asticot au centre d'une arène circulaire
+        divisée en deux zones égales, puis d'observer ses déplacements dans chaque zone pendant cinq minutes. Plusieurs paramètres ont été mesurés (temps passé par un
+        dans une zone, distance parcourue, vitesse moyenne) puis comparés entre les zones à l'aide de tests paramétriques (test t de Student pour données appariées)
+        ou non-paramétriques (test de Wilcoxon).
+        <br>
+        
+        ### Illustrations
+        
+        ![Figure 1. Exemple de trajets réalisés par des asticots dans le dispositif expérimental. A. Le trajet est représenté en rouge, la croix indique l'emplacement initial de l'asticot au moment de l'enregistrement. B. Le temps passé par l'asticot à différents endroits du dispositif est représenté par un gradient de couleur (du bleu au rouge : temps faible à élevé).](:Article_1_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Exemple de trajets réalisés par des asticots dans le dispositif expérimental. A. Le trajet est représenté en rouge, la croix indique l'emplacement initial de l'asticot au moment de l'enregistrement. B. Le temps passé par l'asticot à différents endroits du dispositif est représenté par un gradient de couleur (du bleu au rouge : temps faible à élevé).
+        <br>
+        <br>
+        
+        ![Figure 2. Différence moyenne de temps passé par les larves de l'espèce Lucilia sericata (en vert) et Calliphora vomitoria (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).](:Article_1_Figure_2.png){:data-align="center"}
+        
+        **Figure 2.** Différence moyenne de temps passé par les larves de l'espèce Lucilia sericata (en vert) et Calliphora vomitoria (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).
+        <br>
+        <br>
+        
+        ### Contribution personnelle
+        - Conception et réalisation des expériences
+        - Analyse des résultats et interprétation
+        - Rédaction de l'article
+        <br>
+        
+        ### Liens
+        - [Version en ligne](https://www.nature.com/articles/s41598-018-21316-x)
+        - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2018.pdf)
