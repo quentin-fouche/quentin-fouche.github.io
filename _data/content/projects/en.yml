@@ -419,7 +419,7 @@ page_data:
     - type: id_publication
       project_name: "Article d'encyclopédie (2019)"
       project_excerpt: "Cet article porte sur la définition d'un concept d'éthologie : l'agrégation. Je l'ai publié en premier auteur dans Encyclopedia of Animal Cognition and Behavior."
-      img: ":Article_2_Figure_1.jpg"
+      img: ":Article_2_Figure_1.png"
       img_title: "Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages."
       date: "2019-02-14"
       post: |
@@ -430,7 +430,7 @@ page_data:
         
         ### Illustrations
         
-        ![Figure 1. Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.](:Article_2_Figure_1.jpg){:data-align="center"}
+        ![Figure 1. Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.](:Article_2_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.
         <br>
