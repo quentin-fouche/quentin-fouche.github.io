@@ -385,7 +385,7 @@ page_data:
         qui permettent à différentes espèces d'asticots de se regrouper. A l'aide d'expériences de choix binaires, j'ai montré que les asticots laissent des traces
         chimiques qui retiennent à la fois leurs congénères et les individus d'autres espèces.
         
-        Les analyses réalisées sont hypothético-déductives. Le principe des expériences était de déposer un asticot au centre d'une arène circulaire
+        L'approche de l'étude était hypothético-déductive. Le principe des expériences était de déposer un asticot au centre d'une arène circulaire
         divisée en deux zones égales, puis d'observer ses déplacements dans chaque zone pendant cinq minutes. Plusieurs paramètres ont été mesurés (temps passé par un
         dans une zone, distance parcourue, vitesse moyenne) puis comparés entre les zones à l'aide de tests paramétriques (test t de Student pour données appariées)
         ou non-paramétriques (test de Wilcoxon).
@@ -458,10 +458,13 @@ page_data:
         fonction du nombre d'asticots et du nombre d'espèces. J'ai d'abord réalisé des expériences de suivi du développement des asticots sur de la nourriture (foie de
         boeuf) fraîche ou décomposée, en groupes de différentes tailles et composés d'une ou deux espèces, puis j'ai observé leur comportement dans un dispositif
         offrant le choix entre ces deux types de nourriture. Les résultats ont montré que les asticots choisissent le plus souvent de s'alimenter sur de la nourriture
-        fraîche, sur laquelle ils se développent le mieux. Ils font cependant le choix inverse lorsque deux espèces d'asticots sont mélangés, ce qui peut s'expliquer par
-        le fait que l'association des deux espèces leur permet de mieux se développer.
+        fraîche, qui est celle sur laquelle ils se développent le mieux. Ils font cependant le choix inverse lorsque deux espèces d'asticots sont mélangés, ce qui peut
+        s'expliquer par le fait que l'association des deux espèces offre un bénéfice en leur permettant de mieux se développer.
         
-        Les analyses statistiques...
+        Les analyses statistiques des expériences de développement ont consisté à comparer des métriques (taux d'émergence des mouches et masse moyenne) entre plusieurs
+        groupes avec des tests de Kruskall-Wallis et de Mann-Whitney. Dans les expériences comportementales, pour déterminer le choix des asticots pour un spot de
+        nourriture, le nombre d'individus sur chacun des spots était comparé en utilisant un test binomial. Ce même test était ensuite utilisé pour déterminer si le
+        choix d'un spot était plus fréquent que ce qui était attendu si les asticots se comportaient de manière aléatoire.
         <br>
         
         ### Illustrations
