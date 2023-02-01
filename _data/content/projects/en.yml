@@ -377,7 +377,7 @@ page_data:
       img_title: "Exemple de trajets réalisés par des asticots dans le dispositif expérimental."
       date: "2018-02-10"
       post: |
-        ### Description du sujet
+        ### Description
         Le titre de cet article est "Communication in necrophagous Diptera larvae: interspecific effect of cues left behind by maggots and implications in their
         aggregation". J'y rapporte une étude sur la formation des groupes (ou agrégation) chez les asticots nécrophages. Ces larves de mouche sont des insectes grégaires,
         qui s'alimentent et se développent sur des cadavres en décomposition en formant des groupes. Ces groupes, qui peuvent contenir plusieurs milliers d'individus
@@ -423,7 +423,7 @@ page_data:
       img_title: "Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages."
       date: "2019-02-14"
       post: |
-        ### Description du sujet
+        ### Description
         J'ai publié cet article dans une encyclopédie sur le comportement animal. Le but était de proposer une définition succinte du concept d'agrégation (le processus
         de formation de groupes chez les animaux) en l'illustrant avec des exemples issus de la littérature scientifique et des travaux de ma thèse.
         <br>
@@ -436,8 +436,53 @@ page_data:
         <br>
         
         ### Contribution personnelle
+        - Analyse de la littérature
         - Rédaction de l'article
         <br>
         
         ### Lien
         - [Article](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2019.pdf)
+
+
+    # Publication dans Journal of Experimental Biology (2021)
+    - type: id_publication
+      project_name: "Publication dans Journal of Experimental Biology (2021)"
+      project_excerpt: "J'ai publié cet article en premier auteur dans la revue Journal of Experimental Biology. L'étude portait sur les dynamiques de décisions collectives chez les asticots nécrophages."
+      img: ":Article_3_Figure_1.png"
+      img_title: "Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes."
+      date: "2021-02-03"
+      post: |
+        ### Description
+        Cet article est intitulé "Effect of density and species preferences on collective choices: an experimental study on maggot aggregation behaviours". Dans cette
+        étude, je me suis intéressé aux décisions collectives chez les asticots nécrophages, plus précisément sur les variations des préférences alimentaires en
+        fonction du nombre d'asticots et du nombre d'espèces. J'ai d'abord réalisé des expériences de suivi du développement des asticots sur de la nourriture (foie de
+        boeuf) fraîche ou décomposée, en groupes de différentes tailles et composés d'une ou deux espèces, puis j'ai observé leur comportement dans un dispositif
+        offrant le choix entre ces deux types de nourriture. Les résultats ont montré que les asticots choisissent le plus souvent de s'alimenter sur de la nourriture
+        fraîche, sur laquelle ils se développent le mieux. Ils font cependant le choix inverse lorsque deux espèces d'asticots sont mélangés, ce qui peut s'expliquer par
+        le fait que l'association des deux espèces leur permet de mieux se développer.
+        
+        Les analyses statistiques...
+        <br>
+        
+        ### Illustrations
+        
+        ![Figure 1. Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes.](:Article_3_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes.
+        <br>
+        <br>
+        
+        ![Figure 2. Pourcentage d'expériences montrant une agrégation des larves sur le spot frais (noir), sur le spot décomposé (gris) ou sur aucun spot (blanc). Chaque condition expérimentale a été répétée 10 fois. La première barre ("Expected") indique la probabilité d'observer une agrégation si les larves n'intéragissaient pas entre elles. Les astérisques indiquent un résultat significatif (test binomial : * P < 0.05, ** P < 0.01, *** P < 0.001). Les conditions expérimentales sont indiquées par le nombre de larves utilisées suivi du nom de l'espèce (Ls : Lucilia sericata ; Cv : Calliphora vicina) et de la taille des spots (SS : petits ; BS : grands).](:Article_3_Figure_2.png){:data-align="center"}
+        
+        **Figure 2.** Pourcentage d'expériences montrant une agrégation des larves sur le spot frais (noir), sur le spot décomposé (gris) ou sur aucun spot (blanc). Chaque condition expérimentale a été répétée 10 fois. La première barre ("Expected") indique la probabilité d'observer une agrégation si les larves n'intéragissaient pas entre elles. Les astérisques indiquent un résultat significatif (test binomial : * P < 0.05, ** P < 0.01, *** P < 0.001). Les conditions expérimentales sont indiquées par le nombre de larves utilisées suivi du nom de l'espèce (Ls : Lucilia sericata ; Cv : Calliphora vicina) et de la taille des spots (SS : petits ; BS : grands).
+        <br>
+        
+        ### Contribution personnelle
+        - Conception et réalisation des expériences
+        - Analyse des résultats et interprétation
+        - Rédaction de l'article
+        <br>
+        
+        ### Liens
+        - [Site du journal](https://journals.biologists.com/jeb/article/224/6/jeb233791/237924/Effect-of-density-and-species-preferences-on)
+        - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2021.pdf)
