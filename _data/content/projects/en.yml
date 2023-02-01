@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets et publications"
-    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, quelques illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent une description du sujet et des analyses, des illustrations, ma contribution personnelle et un lien vers l'article en ligne ou en preprint."
+    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, quelques illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent également une description du sujet et des illustrations, ainsi que ma contribution personnelle et un lien vers l'article en ligne ou en preprint."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading2.jpg"
@@ -263,7 +263,7 @@ page_data:
         - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
         <br>
         
-        ### Liens
+        ### Lien
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%205_Quentin%20Fouch%C3%A9.pdf)
 
 
@@ -330,7 +330,7 @@ page_data:
         - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
         <br>
         
-        ### Liens
+        ### Lien
         - [Notebook](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Notebook%20projet%206_Quentin%20Fouch%C3%A9.pdf)
 
 
@@ -365,28 +365,26 @@ page_data:
         - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
         <br>
         
-        ### Liens
+        ### Lien
         - [Tableau de bord](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Dashboard_Quentin%20Fouch%C3%A9.pdf)
 
 
-    # Article 1 : Scientific Reports (2018)
+    # Publication dans Scientific Reports (2018)
     - type: id_publication
-      project_name: "Article 1 : Scientific Reports (2018)"
-      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Scientific Reports en 2018. Il traite des vecteurs d'agrégation chez les asticots nécrophages, c'est-à-dire des stimuli qui permettent aux asticots de former des groupes."
+      project_name: "Publication dans Scientific Reports (2018)"
+      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Scientific Reports. Il traite des vecteurs d'agrégation chez les asticots nécrophages, c'est-à-dire des stimuli qui permettent aux asticots de former des groupes."
       img: ":Article_1_Figure_1.jpg"
       img_title: "Exemple de trajets réalisés par des asticots dans le dispositif expérimental."
       date: "2018-02-10"
       post: |
-        ### Sujet
+        ### Description du sujet
         Le titre de cet article est "Communication in necrophagous Diptera larvae: interspecific effect of cues left behind by maggots and implications in their
         aggregation". J'y rapporte une étude sur la formation des groupes (ou agrégation) chez les asticots nécrophages. Ces larves de mouche sont des insectes grégaires,
         qui s'alimentent et se développent sur des cadavres en décomposition en formant des groupes. Ces groupes, qui peuvent contenir plusieurs milliers d'individus
         d'espèces différentes, facilitent l'alimentation des asticots et accélèrent leur développement. Dans cette étude, je me suis intéressé aux vecteurs chimiques
         qui permettent à différentes espèces d'asticots de se regrouper. A l'aide d'expériences de choix binaires, j'ai montré que les asticots laissent des traces
         chimiques qui retiennent à la fois leurs congénères et les individus d'autres espèces.
-        <br>
         
-        ### Analyses
         Les analyses réalisées sont hypothético-déductives. Le principe des expériences était de déposer un asticot au centre d'une arène circulaire
         divisée en deux zones égales, puis d'observer ses déplacements dans chaque zone pendant cinq minutes. Plusieurs paramètres ont été mesurés (temps passé par un
         dans une zone, distance parcourue, vitesse moyenne) puis comparés entre les zones à l'aide de tests paramétriques (test t de Student pour données appariées)
@@ -413,5 +411,33 @@ page_data:
         <br>
         
         ### Liens
-        - [Version en ligne](https://www.nature.com/articles/s41598-018-21316-x)
+        - [Site du journal](https://www.nature.com/articles/s41598-018-21316-x)
         - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2018.pdf)
+
+
+    # Article d'encyclopédie (2019)
+    - type: id_publication
+      project_name: "Article d'encyclopédie (2019)"
+      project_excerpt: "Cet article porte sur la définition d'un concept d'éthologie : l'agrégation. Je l'ai publié en premier auteur dans Encyclopedia of Animal Cognition and Behavior."
+      img: ":Article_2_Figure_1.jpg"
+      img_title: "Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages."
+      date: "2019-02-14"
+      post: |
+        ### Description du sujet
+        J'ai publié cet article dans une encyclopédie sur le comportement animal. Le but était de proposer une définition succinte du concept d'agrégation (le processus
+        de formation de groupes chez les animaux) en l'illustrant avec des exemples issus de la littérature scientifique et des travaux de ma thèse.
+        <br>
+        
+        ### Illustrations
+        
+        ![Figure 1. Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.](:Article_2_Figure_1.jpg){:data-align="center"}
+        
+        **Figure 1.** Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.
+        <br>
+        
+        ### Contribution personnelle
+        - Rédaction de l'article
+        <br>
+        
+        ### Lien
+        - [Article](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2019.pdf)
