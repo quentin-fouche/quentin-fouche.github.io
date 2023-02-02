@@ -495,7 +495,7 @@ page_data:
     - type: id_publication
       project_name: "Publication dans Ecological Entomology (2022)"
       project_excerpt: "J'ai publié cet article en second auteur dans la revue Ecological Entomology, sur le thème de la construction de niche développementale chez les asticots nécrophages."
-      img: ":Article_4_Figure_2.tiff"
+      img: ":Article_4_Figure_2.png"
       img_title: "Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue)."
       date: "2022-01-21"
       post: |
@@ -515,13 +515,13 @@ page_data:
         
         ### Illustrations
         
-        ![Figure 1. Répartition de groupes de 40 à 80 asticots dans un gradient thermique. Les pointillés indiquent la position d'un groupe d'asticots captifs (22°C). Les hachures indiquent le préférendum thermique des asticots (33°C), température à laquelle ils se développent le mieux. Cette figure montre que les asticots choisissent de se rassembler à une température moins favorable (22°C) lorsque des congénères y sont déjà présents.](:Article_4_Figure_1.tiff){:data-align="center"}
+        ![Figure 1. Répartition de groupes de 40 à 80 asticots dans un gradient thermique. Les pointillés indiquent la position d'un groupe d'asticots captifs (22°C). Les hachures indiquent le préférendum thermique des asticots (33°C), température à laquelle ils se développent le mieux. Cette figure montre que les asticots choisissent de se rassembler à une température moins favorable (22°C) lorsque des congénères y sont déjà présents.](:Article_4_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Répartition de groupes de 40 à 80 asticots dans un gradient thermique. Les pointillés indiquent la position d'un groupe d'asticots captifs (22°C). Les hachures indiquent le préférendum thermique des asticots (33°C), température à laquelle ils se développent le mieux. Cette figure montre que les asticots choisissent de se rassembler à une température moins favorable (22°C) lorsque des congénères y sont déjà présents.
         <br>
         <br>
         
-        ![Figure 2. Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).](:Article_4_Figure_2.tiff){:data-align="center"}
+        ![Figure 2. Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).](:Article_4_Figure_2.png){:data-align="center"}
         
         **Figure 2.** Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).
         <br>
