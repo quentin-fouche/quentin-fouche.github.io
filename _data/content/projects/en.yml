@@ -494,7 +494,7 @@ page_data:
     # Publication dans Ecological Entomology (2022)
     - type: id_publication
       project_name: "Publication dans Ecological Entomology (2022)"
-      project_excerpt: "J'ai publié cet article en second auteur dans la revue Ecological Entomology, sur le thème de la construction de niche développementale chez les asticots nécrophages."
+      project_excerpt: "J'ai publié cet article en second auteur dans le journal Ecological Entomology, sur le thème de la construction de niche développementale chez les asticots nécrophages."
       img: ":Article_4_Figure_2.png"
       img_title: "Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue)."
       date: "2022-01-21"
@@ -534,3 +534,40 @@ page_data:
         ### Liens
         - [Site du journal](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/een.13123)
         - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Aubernon_%26_al_2022.pdf)
+
+
+    # Publication dans Medical and Veterinary Entomology (2022)
+    - type: id_publication
+      project_name: "Publication dans Medical and Veterinary Entomology (2022)"
+      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Medical and Veterinary Entomology. Il traite de l'effet comportemental de composés chimiques sécrétés par les asticots nécrophages."
+      img: ":Article_5_Figure_2.png"
+      img_title: "Chromatogramme d'extraits chimiques d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants."
+      date: "2022-09-19"
+      post: |
+        ### Description
+        xxx
+        <br>
+        
+        ### Illustrations
+        
+        ![Figure 1. Chromatogramme d'extraits chimiques d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.](:Article_5_Figure_1.png){:data-align="center"}
+        
+        **Figure 1.** Chromatogramme d'extraits chimiques d'asticots *Lucilia sericata* (en rouge) et *Calliphora vomitoria* (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.
+        <br>
+        <br>
+        
+        ![Figure 2. A. Différence moyenne de temps passé par des asticots Lucilia sericata et Calliphora vomitoria entre une zone vierge et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).](:Article_5_Figure_2.png){:data-align="center"}
+        
+        **Figure 2.** A. Différence moyenne de temps passé par des asticots *Lucilia sericata* et *Calliphora vomitoria* entre une zone vierge et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).
+        <br>
+        
+        ### Contribution personnelle
+        - Conception et réalisation des expériences
+        - Analyse des résultats et interprétation
+        - Rédaction de l'article
+        <br>
+        
+        ### Liens
+        - [Site du journal](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/mve.12614)
+        - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2022.pdf)
+        
