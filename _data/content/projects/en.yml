@@ -506,7 +506,7 @@ page_data:
         modification du milieu de vie (augmentation de la température ambiante, liquéfaction des tissus cadavériques, régulation de la flore microbienne) qui améliore en
         retour le développement des asticots, ce qui est une forme de construction de niche. Dans cette étude, les conséquences du regroupement des asticots et de la
         construction de niche qui en résulte ont été étudiées dans des conditions initialement défavorables aux asticots (faible température). Les résultats ont montré
-        que les bénéfices développementaux liés au regroupement permettaient de compenser les coûts liés à la faible température ambiante.
+        que les bénéfices développementaux générés par le regroupement permettaient de compenser les coûts liés à la faible température ambiante.
         
         Dans cette étude, mon rôle a été d'analyser et d'interpréter des données collectées par un autre chercheur. Les analyses effectuées étaient des comparaisons
         de moyennes de plusieurs paramètres développementaux (survie, taille, durée de développement) entre différents groupes, à l'aide de tests de Student et de
@@ -540,19 +540,26 @@ page_data:
     - type: id_publication
       project_name: "Publication dans Medical and Veterinary Entomology (2022)"
       project_excerpt: "J'ai publié cet article en premier auteur dans le journal Medical and Veterinary Entomology. Il traite de l'effet comportemental de composés chimiques sécrétés par les asticots nécrophages."
-      img: ":Article_5_Figure_2.png"
-      img_title: "Chromatogramme d'extraits chimiques d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants."
+      img: ":Article_5_Figure_1.png"
+      img_title: "Chromatogramme d'extraits chimiques issus d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants."
       date: "2022-09-19"
       post: |
         ### Description
-        xxx
+        Cet article, intitulé "Synomones in necrophagous larvae of the blow flies *Lucilia sericata* and *Calliphora vomitoria*", aborde la question de la nature des
+        médiateurs chimiques intervenant dans les interactions entre espèces d'asticots nécrophages. Le but de l'étude était d'extraire et d'identifier les composés
+        chimiques communs aux deux espèces étudiées, puis de tester l'effet de ces composés sur le comportement des asticots, afin de déterminer quels composés sont
+        impliqués dans la formation des groupes inter-espèces. Les résultats ont montré des effets divergents selon l'espèce étudiée et la nature du composé.
+        
+        Mon rôle dans cette étude a été de réaliser les extractions chimiques d'asticots, qui étaient ensuite analysées dans un autre laboratoire, puis de mettre en place
+        les expériences comportementales et d'en analyser les résultats. Comme dans les précédentes études, le but des analyses statistiques était de comparer différentes
+        mesures comportementales entre différents groupes avec des tests de comparaison de moyennes (test t de Student pour données appariées et test de Wilcoxon).
         <br>
         
         ### Illustrations
         
-        ![Figure 1. Chromatogramme d'extraits chimiques d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.](:Article_5_Figure_1.png){:data-align="center"}
+        ![Figure 1. Chromatogramme d'extraits chimiques issus d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.](:Article_5_Figure_1.png){:data-align="center"}
         
-        **Figure 1.** Chromatogramme d'extraits chimiques d'asticots *Lucilia sericata* (en rouge) et *Calliphora vomitoria* (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.
+        **Figure 1.** Chromatogramme d'extraits chimiques issus d'asticots *Lucilia sericata* (en rouge) et *Calliphora vomitoria* (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.
         <br>
         <br>
         
@@ -562,7 +569,7 @@ page_data:
         <br>
         
         ### Contribution personnelle
-        - Conception et réalisation des expériences
+        - Conception et réalisation des expériences comportementales
         - Analyse des résultats et interprétation
         - Rédaction de l'article
         <br>
