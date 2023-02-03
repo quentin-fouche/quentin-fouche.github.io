@@ -582,7 +582,7 @@ page_data:
     # Thèse (2017-2020)
     - type: id_these
       project_name: "Thèse (2017-2020)"
-      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale, de 2017 à 2020. Cette thèse a porté sur l'étude des regroupements entre espèces et des comportements collectifs chez les asticots nécrophages."
+      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale. Je l'ai soutenue le 27 novembre 2020. Dans cette thèse, j'ai étudié les regroupements entre espèces et les comportements collectifs chez les asticots nécrophages."
       img: ":These_couverture.jpg"
       img_title: "Page de couverture"
       date: "2020-11-27"
@@ -592,9 +592,9 @@ page_data:
         blocs, qui correspondent à l'étude de trois aspects différents des regroupements d'espèces d'asticots. Le premier bloc porte sur les mécanismes de la formation des
         groupes, et plus particulièrement sur l'effet comportemental des composés chimiques laissés par les asticots. Le second bloc traite des coûts et bénéfices de ces
         groupes sur le développement des asticots. Le dernier bloc s'intéresse à la plasticité comportementale, c'est-à-dire aux variations du comportement d'agrégation des
-        asticots en fonction des conditions de l'environnement. L'ensemble des études réalisées dans cette thèse est rapporté dans les publications.
+        asticots en fonction des conditions de l'environnement. L'ensemble des études et des analyses réalisées dans cette thèse sont rapportées dans les cinq publications
+        présentées plus haut.
         <br>
         
         ### Lien
         - [Thèse](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/PhD_Fouche_2020.pdf)
-        
