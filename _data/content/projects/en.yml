@@ -563,9 +563,9 @@ page_data:
         <br>
         <br>
         
-        ![Figure 2. A. Différence moyenne de temps passé par des asticots Lucilia sericata et Calliphora vomitoria entre une zone vierge et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).](:Article_5_Figure_2.png){:data-align="center"}
+        ![Figure 2. A. Différence moyenne de temps passé par des asticots Lucilia sericata et Calliphora vomitoria entre une zone neutre et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).](:Article_5_Figure_2.png){:data-align="center"}
         
-        **Figure 2.** A. Différence moyenne de temps passé par des asticots *Lucilia sericata* et *Calliphora vomitoria* entre une zone vierge et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).
+        **Figure 2.** A. Différence moyenne de temps passé par des asticots *Lucilia sericata* et *Calliphora vomitoria* entre une zone neutre et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).
         <br>
         
         ### Contribution personnelle
@@ -582,7 +582,7 @@ page_data:
     # Thèse (2017-2020)
     - type: id_these
       project_name: "Thèse (2017-2020)"
-      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale. Je l'ai soutenue le 27 novembre 2020. Dans cette thèse, j'ai étudié les regroupements entre espèces et les comportements collectifs chez les asticots nécrophages."
+      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale, et l'ai soutenue le 27 novembre 2020. Dans cette thèse, j'ai étudié les regroupements entre espèces et les comportements collectifs chez les asticots nécrophages."
       img: ":These_couverture.jpg"
       img_title: "Page de couverture"
       date: "2020-11-27"
