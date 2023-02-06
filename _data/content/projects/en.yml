@@ -118,7 +118,7 @@ page_data:
     # Projet 3 : Statistiques
     - type: id_projet
       project_name: "Projet 3 : Statistiques"
-      project_excerpt: "Ce projet traite de l'application des tests statistiques les plus communément utilisés en analyse de données (Chi2, tests de Student et de Mann-Whitney, ANOVA, tests de corrélation) ainsi que des régréssions linéaires et logistiques (loi binomiale, loi de Poisson, odd-ratios)."
+      project_excerpt: "Ce projet traite de l'application des tests statistiques communément utilisés en analyse de données et des régréssions linéaires et logistiques."
       img: ":Projet_3_Figure_2.jpg"
       img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine (B : bas ; I : intermédiaire ; TH : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
       date: "2022-07-08"
@@ -126,14 +126,12 @@ page_data:
         ### Description
         Dans ce projet, l'objectif était de mettre en application différents tests statistiques pour analyser des données liées aux
         résultats d'un MOOC. Ce jeu de données comprenait des variables binaires (e.g. la réussite ou non à l'examen final du MOOC), des
-        variables qualitatives catégorielles (e.g. le genre de l'apprenant, l'IDH - Indice de Développement Humain - de son pays d'origine)
-        et des variables quantitatives discrètes (e.g. le nombre de vidéos vues par apprenant). Les résultats des tests devaient ensuite
-        être présentés et discutés de manière appropriée dans un rapport.
-
-        Les test que j'ai appliqués sont un test de Chi2, dont j'ai représenté les résidus par un diagramme en mosaïque (Figure 1),
-        des tests de Student et de Mann-Whitney et une ANOVA. J'ai également réalisé une régression logistique avec une loi binomiale, en
-        représentant les odd-ratios par un forest plot (Figure 2), une régression de Poisson, ainsi qu'une régression linéaire multiple,
-        dont j'ai évalué les conditions de validité par un ensemble de graphiques présentés en Figure 3.
+        variables qualitatives catégorielles (e.g. le genre de l'apprenant) et des variables quantitatives discrètes (e.g. le nombre de
+        vidéos vues par apprenant). Les résultats des tests devaient ensuite être présentés et discutés de manière appropriée dans un rapport.
+        
+        Les test appliqués sont des tests de Chi2 (dont les résidus sont représentés dans la Figure 1), de Student et de Mann-Whitney et une ANOVA.
+        J'ai également réalisé une régression logistique avec une loi binomiale (dont les odd-ratios sont affichés dans la Figure 2), une régression de
+        Poisson, ainsi qu'une régression linéaire multiple (dont les conditions de validité ont été évaluées avec les graphiques en Figure 3).
         <br>
         
         ### Illustrations
@@ -144,9 +142,9 @@ page_data:
         <br>
         <br>
         
-        ![Figure 2. Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.](:Projet_3_Figure_2.jpg){:data-align="center"}
+        ![Figure 2. Odds-ratios (± IC95) issus d'une régression logistique entre le résultat au MOOC et le genre et l’IDH ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.](:Projet_3_Figure_2.jpg){:data-align="center"}
         
-        **Figure 2.** Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités "Hommes" et "IDH Bas" sont utilisées comme références.
+        **Figure 2.** Odds-ratios (± IC95) issus d'une régression logistique entre le résultat au MOOC et le genre et l’IDH ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé).
         <br>
         <br>
         
@@ -156,9 +154,9 @@ page_data:
         <br>
         
         ### Compétences
-        - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
-        - Identifier les situations pour lesquels des tests non-paramétriques sont requis
-        - Savoir transformer des données pour retomber dans les conditions de validité d’un test
+        - Mettre en oeuvre des analyses statistiques simples (Student, ANOVA, régressions linéaire et logistique)
+        - Vérifier les conditions de validité d’un test, transformer les données si nécessaire
+        - Représenter graphiquement et interpréter les résultats d'un test
         <br>
         
         ### Liens
