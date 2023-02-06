@@ -26,30 +26,28 @@ page_data:
     # Projet 1 : Manipulation et prétraitement de données
     - type: id_projet
       project_name: "Projet 1 : Manipulation et prétraitement de données"
-      project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données (formatage et réorganisation des données, détection et traitement des valeurs manquantes, des anomalies et des outliers) et à réaliser l'analyse exploratoire d'un jeu de données."
+      project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données."
       img: ":Projet_1_Figure_1.jpg"
       img_title: "Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
       date: "2022-04-28"
       post: |
         ### Description
-        Ce projet avait pour but de manipuler un jeu de données à l'aide de Python et de vérifier sa qualité. Le jeu de données portait
-        sur les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL. Les variables incluaient notamment
-        le nom de l'auteur, le nom du directeur ou de la directrice de thèse, la date de soutenance, le titre de
-        la thèse, la discipline ou encore la langue de la thèse.
+        Le but de ce projet était de manipuler un jeu de données avec Python et de vérifier sa qualité. Le jeu de données contenait
+        les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL (exemple de variables : nom de l'auteur, date de soutenance,
+        titre de la thèse, discipline, langue).
 
-        J'ai commencé le prétraitement des données par une étude des données manquantes. Le but était de détecter les valeurs
-        manquantes et d'analyser leur répartition dans les différentes variables (Figures 1 et 2), afin d'identifier les causes
-        possibles de l'absence de ces données. Je me suis ensuite intéressé aux potentielles anomalies présentes dans le jeu de données,
-        comme par exemple un mois de soutenance sur-représenté par rapport aux autres ou encore des homonymes identifiés comme étant
-        une seule et même personne. Enfin, j'ai analysé certaines valeurs aberrantes (outliers) pour déterminer si elles étaient
-        valides ou erronées. Mes analyses sont présentées sous la forme d'un notebook et d'un rapport.
+        J'ai commencé le nettoyage des données par une étude des données manquantes. Le but était de détecter et
+        d'analyser la répartition des valeurs manquantes dans les différentes variables (Figures 1 et 2), afin d'identifier les causes
+        possibles de l'absence des données. Je me suis ensuite intéressé aux potentielles anomalies présentes dans le jeu de données
+        (e.g. faux homonymes). Enfin, j'ai analysé certaines valeurs aberrantes pour déterminer si elles étaient
+        valides ou erronées. Les analyses sont présentées sous la forme d'un notebook et d'un rapport.
         <br>
         
         ### Illustrations
         
-        ![Figure 1. Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
+        ![Figure 1. Diagramme UpSet représentant le nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes.](:Projet_1_Figure_1.jpg){:data-align="center"}
 
-        **Figure 1.** Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables.
+        **Figure 1.** Diagramme UpSet.
         <br>
         <br>
         
@@ -59,9 +57,8 @@ page_data:
         <br>
         
         ### Compétences
-        - Savoir charger et décrire un jeu de données à travers Python
-        - Savoir manipuler une base de données relationnelles (SQL)
-        - Savoir traiter des valeurs manquantes ou aberrantes
+        - Charger et décrire un jeu de données à travers Python
+        - Traiter des valeurs manquantes ou aberrantes
         - Manipuler et représenter la distribution de variables de différents types (continues, binaires, dates, etc.)
         <br>
         
