@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets et publications"
-    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, des illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent une description du sujet et des illustrations, ainsi qu'un lien vers l'article en ligne ou en preprint."
+    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, des illustrations, les principales compétences mises en oeuvre et un lien vers un notebook ou un rapport. Les publications contiennent une description du sujet et des illustrations, ainsi qu'un lien vers l'article en ligne ou en preprint."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading2.jpg"
@@ -26,7 +26,7 @@ page_data:
     # Projet 1 : Manipulation et prétraitement de données
     - type: id_projet
       project_name: "Projet 1 : Manipulation et prétraitement de données"
-      project_excerpt: "Ce projet visait à valider la maîtrise des techniques de base de manipulation et de nettoyage de données."
+      project_excerpt: "Ce projet visait la maîtrise des techniques de base de manipulation et de nettoyage de données."
       img: ":Projet_1_Figure_1.jpg"
       img_title: "Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
       date: "2022-04-28"
@@ -37,8 +37,8 @@ page_data:
         titre de la thèse, discipline, langue).
 
         J'ai commencé le nettoyage des données par une étude des données manquantes. Le but était de détecter et
-        d'analyser la répartition des valeurs manquantes dans les différentes variables (Figures 1 et 2), afin d'identifier les causes
-        possibles de l'absence des données. Je me suis ensuite intéressé aux potentielles anomalies présentes dans le jeu de données
+        d'analyser la répartition des valeurs manquantes dans les différentes variables (cf. Figures·1·et·2), afin d'identifier les causes
+        possibles de l'absence des données. Je me suis ensuite intéressé aux anomalies présentes dans le jeu de données
         (e.g. faux homonymes). Enfin, j'ai analysé certaines valeurs aberrantes pour déterminer si elles étaient
         valides ou erronées. Les analyses sont présentées sous la forme d'un notebook et d'un rapport.
         <br>
