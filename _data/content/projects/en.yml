@@ -37,7 +37,7 @@ page_data:
         titre de la thèse, discipline, langue).
 
         J'ai commencé le nettoyage des données par une étude des données manquantes. Le but était de détecter et
-        d'analyser la répartition des valeurs manquantes dans les différentes variables (cf. Figures·1·et·2), afin d'identifier les causes
+        d'analyser la répartition des valeurs manquantes dans les différentes variables (cf. Figures&nbsp;1&nbsp;et&nbsp;2), afin d'identifier les causes
         possibles de l'absence des données. Je me suis ensuite intéressé aux anomalies présentes dans le jeu de données
         (e.g. faux homonymes). Enfin, j'ai analysé certaines valeurs aberrantes pour déterminer si elles étaient
         valides ou erronées. Les analyses sont présentées sous la forme d'un notebook et d'un rapport.
@@ -51,7 +51,7 @@ page_data:
         <br>
         <br>
         
-        ![Figure 2. Corrélogramme des valeurs manquantes entre deux variables, pour chaque paire de variables parmi les six qui contiennent le plus de données manquantes. Le gradient de couleur indique le degré de corrélation entre les variables (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
+        ![Figure 2. Corrélogramme des valeurs manquantes parmi les six variables qui en contiennent le plus. Le gradient de couleur indique le coefficient de corrélation (bleu : corrélation positive ; blanc : pas de corrélation ; rouge : corrélation négative).](:Projet_1_Figure_2.jpg){:data-align="center"}
         
         **Figure 2.** Corrélogramme de valeurs manquantes.
         <br>
