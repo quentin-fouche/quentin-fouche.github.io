@@ -5,7 +5,7 @@
 page_data:
   main:
     header: "Projets et publications"
-    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, quelques illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent également une description du sujet et des illustrations, ainsi que ma contribution personnelle et un lien vers l'article en ligne ou en preprint."
+    info: "J'ai réalisé les analyses des projets en Python et celles des publications en R. Chaque projet contient une description, des illustrations, les principales compétences mises en oeuvre et un lien vers un notebook et/ou un rapport. Les publications contiennent une description du sujet et des illustrations, ainsi qu'un lien vers l'article en ligne ou en preprint."
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading2.jpg"
@@ -31,7 +31,7 @@ page_data:
       img_title: "Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
       date: "2022-04-28"
       post: |
-        ### Description du projet
+        ### Description
         Ce projet avait pour but de manipuler un jeu de données à l'aide de Python et de vérifier sa qualité. Le jeu de données portait
         sur les métadonnées de thèses disponibles sur le site d'archive-ouverte HAL. Les variables incluaient notamment
         le nom de l'auteur, le nom du directeur ou de la directrice de thèse, la date de soutenance, le titre de
@@ -58,7 +58,7 @@ page_data:
         **Figure 2.** Corrélogramme de valeurs manquantes.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Savoir charger et décrire un jeu de données à travers Python
         - Savoir manipuler une base de données relationnelles (SQL)
         - Savoir traiter des valeurs manquantes ou aberrantes
@@ -78,7 +78,7 @@ page_data:
       img_title: "Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline."
       date: "2022-06-01"
       post: |
-        ### Description du projet
+        ### Description
         Le but de ce projet était de créer différents types de visualisations à partir de deux jeux de données. Le premier jeu portait
         sur les métadonnées de thèses électroniques (cf. projet 1), le second sur les coordonnées des vols d'avion en provenance et
         à destination de Russie ayant eu lieu au cours des mois de février et mars 2022, au moment du début de la guerre en Ukraine.
@@ -109,7 +109,7 @@ page_data:
         **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
         - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
         <br>
@@ -127,7 +127,7 @@ page_data:
       img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine (B : bas ; I : intermédiaire ; TH : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
       date: "2022-07-08"
       post: |
-        ### Description du projet
+        ### Description
         Dans ce projet, l'objectif était de mettre en application différents tests statistiques pour analyser des données liées aux
         résultats d'un MOOC. Ce jeu de données comprenait des variables binaires (e.g. la réussite ou non à l'examen final du MOOC), des
         variables qualitatives catégorielles (e.g. le genre de l'apprenant, l'IDH - Indice de Développement Humain - de son pays d'origine)
@@ -159,7 +159,7 @@ page_data:
         **Figure 3.** Diagnostic de l'application d'un modèle linéaire sur le nombre de vidéos vues par apprenant en fonction du genre et de l’IDH.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Savoir mettre en oeuvre des analyses statistiques simples (Student, ANOVA, Régression logistique)
         - Identifier les situations pour lesquels des tests non-paramétriques sont requis
         - Savoir transformer des données pour retomber dans les conditions de validité d’un test
@@ -178,7 +178,7 @@ page_data:
       img_title: "Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence."
       date: "2022-09-01"
       post: |
-        ### Description du projet
+        ### Description
         Le but de ce projet était, d'une part, de réaliser une analyse autonome d'un jeu de données, d'autre part, de rédiger un rapport présentant
         les résultats les plus pertinents de l'analyse. Le rapport devait devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
         inclure au moins deux figures et deux tests statistiques et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
@@ -205,7 +205,7 @@ page_data:
         **Figure 2.** Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
         - Structurer de manière logique la restitution des résultats des analyses
         - Produire un document en Latex
@@ -224,7 +224,7 @@ page_data:
       img_title: "Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes."
       date: "2022-10-06"
       post: |
-        ### Description du projet
+        ### Description
         Le thème de ce projet est l'apprentissage non supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
         telles que l'analyse en composantes principales (ACP) et l'analyse des correspondances multiples (ACM), puis des algorithmes
         de clustering tels que le k-means, la classification ascendante hiérarchique (CAH) et le DBSCAN ("Density-Based Spatial Clustering
@@ -258,7 +258,7 @@ page_data:
         **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
         - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
         <br>
@@ -275,7 +275,7 @@ page_data:
       img_title: "Classification de pingouins dans trois groupes différents en fonction de la profondeur et de la longueur de leur bec. La coloration des points indique le véritable groupe d'appartenance des individus (Adelie, Gentoo ou Chinstrap) tandis que la couleur des aires indique les groupes créés par l'arbre de classification."
       date: "2022-11-13"
       post: |
-        ### Description du projet
+        ### Description
         Le but de ce projet était de s'initier à l'utilisation, à l'optimisation et aux mesures de performance de plusieurs algorithmes
         d'apprentissage supervisé. Les modèles étudiés étaient les arbres de décision (classification et régression), le bagging et les
         forêts aléatoires.
@@ -325,7 +325,7 @@ page_data:
         **Figure 3.** Courbe ROC-AUC d'un arbre de classification utilisé pour déterminer si des patients sont atteints ou non d'une maladie du foie. La ligne grise représente la performance théorique d'un modèle de classification aléatoire.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Appliquer une méthode d’apprentissage supervisé (forêts aléatoires) pour réaliser une tâche de classification
         - Utiliser des métriques (AUC, OOB) pour estimer la qualité d’un modèle
         <br>
@@ -342,7 +342,7 @@ page_data:
       img_title: "Tableau de bord sur des données de ressources humaines d'une entreprise fictive."
       date: "2022-12-04"
       post: |
-        ### Description du projet
+        ### Description
         La focale de ce projet était la Business Intelligence et la création d'un tableau de bord sur le logiciel Power BI.
         Le jeu de données traité était une base de ressources humaines d'une entreprise fictive, qui décrivait la situation de chaque
         salarié (e.g. poste occupé, ancienneté, salaire).
@@ -360,7 +360,7 @@ page_data:
         **Figure 1.** Tableau de bord sur des données de ressources humaines d'une entreprise fictive.
         <br>
         
-        ### Compétences mises en oeuvre
+        ### Compétences
         - Concevoir le cahier des charges d’un tableau de bord
         - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
         <br>
@@ -404,12 +404,6 @@ page_data:
         **Figure 2.** Différence moyenne de temps passé par les larves de l'espèce *Lucilia sericata* (en vert) et *Calliphora vomitoria* (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).
         <br>
         
-        ### Contribution personnelle
-        - Conception et réalisation des expériences
-        - Analyse des résultats et interprétation
-        - Rédaction de l'article
-        <br>
-        
         ### Liens
         - [Site du journal](https://www.nature.com/articles/s41598-018-21316-x)
         - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2018.pdf)
@@ -433,11 +427,6 @@ page_data:
         ![Figure 1. Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.](:Article_2_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Mécanismes de l'agrégation et conséquences sur la fitness chez les larves de Diptères nécrophages.
-        <br>
-        
-        ### Contribution personnelle
-        - Analyse de la littérature
-        - Rédaction de l'article
         <br>
         
         ### Lien
@@ -480,12 +469,6 @@ page_data:
         **Figure 2.** Pourcentage d'expériences montrant une agrégation des larves sur le spot frais (noir), sur le spot décomposé (gris) ou sur aucun spot (blanc). Chaque condition expérimentale a été répétée 10 fois. La première barre ("Expected") indique la probabilité d'observer une agrégation si les larves n'intéragissaient pas entre elles. Les astérisques indiquent un résultat significatif (test binomial : * P < 0.05, ** P < 0.01, *** P < 0.001). Les conditions expérimentales sont indiquées par le nombre de larves utilisées suivi du nom de l'espèce (Ls : *Lucilia sericata* ; Cv : *Calliphora vicina*) et de la taille des spots (SS : petits ; BS : grands).
         <br>
         
-        ### Contribution personnelle
-        - Conception et réalisation des expériences
-        - Analyse des résultats et interprétation
-        - Rédaction de l'article
-        <br>
-        
         ### Liens
         - [Site du journal](https://journals.biologists.com/jeb/article/224/6/jeb233791/237924/Effect-of-density-and-species-preferences-on)
         - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Fouche_%26_al_2021.pdf)
@@ -526,11 +509,6 @@ page_data:
         **Figure 2.** Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).
         <br>
         
-        ### Contribution personnelle
-        - Analyse des résultats et interprétation
-        - Rédaction de l'article
-        <br>
-        
         ### Liens
         - [Site du journal](https://resjournals.onlinelibrary.wiley.com/doi/10.1111/een.13123)
         - [Preprint](https://raw.githubusercontent.com/quentin-fouche/quentin-fouche.github.io/main/assets/img/projects/Aubernon_%26_al_2022.pdf)
@@ -566,12 +544,6 @@ page_data:
         ![Figure 2. A. Différence moyenne de temps passé par des asticots Lucilia sericata et Calliphora vomitoria entre une zone neutre et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).](:Article_5_Figure_2.png){:data-align="center"}
         
         **Figure 2.** A. Différence moyenne de temps passé par des asticots *Lucilia sericata* et *Calliphora vomitoria* entre une zone neutre et une zone contenant un composé larvaire. B. Ratio moyen entre les vitesses moyennes dans chaque zone. Les barres d'erreurs représentent l'erreur standard, les couleurs indiquent les composés (vert : acide décanoïque ; bleu : acide pentadécanoïque ; rouge : (Z)-9-tricosène).
-        <br>
-        
-        ### Contribution personnelle
-        - Conception et réalisation des expériences comportementales
-        - Analyse des résultats et interprétation
-        - Rédaction de l'article
         <br>
         
         ### Liens
