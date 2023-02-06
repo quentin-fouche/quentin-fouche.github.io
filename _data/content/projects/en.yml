@@ -70,21 +70,20 @@ page_data:
     # Projet 2 : Visualisation de données
     - type: id_projet
       project_name: "Projet 2 : Visualisation de données"
-      project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant notamment des graphiques interactifs et des visualisations de données spatiales."
+      project_excerpt: "Ce projet portait sur la création et la mise en forme de graphiques de différents types, incluant des graphiques interactifs et la visualisation de données spatiales."
       img: ":Projet_2_Figure_1.jpg"
       img_title: "Évolution du nombre de thèses soutenues au fil des ans en fonction de la discipline."
       date: "2022-06-01"
       post: |
         ### Description
         Le but de ce projet était de créer différents types de visualisations à partir de deux jeux de données. Le premier jeu portait
-        sur les métadonnées de thèses électroniques (cf. projet 1), le second sur les coordonnées des vols d'avion en provenance et
-        à destination de Russie ayant eu lieu au cours des mois de février et mars 2022, au moment du début de la guerre en Ukraine.
+        sur les métadonnées de thèses électroniques (cf. projet 1), le second sur les vols d'avion en provenance et à destination de Russie
+        en février et mars 2022 (début de la guerre en Ukraine).
 
-        Dans la première partie de ce projet, j'ai créé un graphique à aire empilées et joué sur différents aspects de sa mise en forme
-        (couleur, type et taille de police, position de la légende, etc. ; Figure 1). Dans une seconde partie, j'ai produit un graphique
-        animé (bar chart race) et plusieurs graphiques interactifs (avec selector ou slicer ; Figure 2). Enfin, j'ai réalisé sous
-        Python puis sur le site kepler.gl une visualisation de données spatiales (trajets des vols d'avion du deuxième jeu de données ;
-        Figure 3).
+        Dans la première partie du projet, j'ai créé un graphique à aire empilées et joué sur différents aspects de sa mise en forme
+        (couleur, taille de police, position de la légende, etc. ; Figure 1). Dans la seconde partie, j'ai produit un graphique
+        animé (bar chart race) et plusieurs graphiques interactifs (Figure 2). Enfin, j'ai réalisé sous Python puis sur le site kepler.gl
+        une visualisation de données spatiales sur les vols d'avion (Figure 3).
         <br>
         
         ### Illustrations
@@ -103,11 +102,11 @@ page_data:
 
         ![Figure 3. Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.](:Projet_2_Figure_3.jpg){:data-align="center"}
         
-        **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. A. Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. B. Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre. Le graphique a été réalisé sur le site kepler.gl.
+        **Figure 3.** Cartes de vols d’avion en provenance et à destination de la Russie. **A.** Vols effectués le 23/02/2022, soit un jour avant le début de la guerre en Ukraine. **B.** Vols effectués le 28/02/2022, soit quatre jours après le début de la guerre.
         <br>
         
         ### Compétences
-        - Savoir réaliser avec Python les principaux types de graphiques utilisés en analyse de données
+        - Créer et mettre en forme avec Python les principaux types de graphiques utilisés en analyse de données
         - Savoir identifier quel type de graphique est le plus adapté à une situation donnée
         <br>
         
