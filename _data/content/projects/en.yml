@@ -365,7 +365,7 @@ page_data:
     # Publication dans Scientific Reports (2018)
     - type: id_publication
       project_name: "Publication dans Scientific Reports (2018)"
-      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Scientific Reports. Il traite des vecteurs d'agrégation chez les asticots nécrophages, c'est-à-dire des stimuli qui permettent aux asticots de former des groupes."
+      project_excerpt: "J'ai publié le premier article de ma thèse en premier auteur dans le journal Scientific Reports. Il traite des vecteurs d'agrégation chez les asticots nécrophages."
       img: ":Article_1_Figure_1.jpg"
       img_title: "Exemple de trajets réalisés par des asticots dans le dispositif expérimental."
       date: "2018-02-10"
@@ -374,27 +374,25 @@ page_data:
         Le titre de cet article est "Communication in necrophagous Diptera larvae: interspecific effect of cues left behind by maggots and implications in their
         aggregation". J'y rapporte une étude sur la formation des groupes (ou agrégation) chez les asticots nécrophages. Ces larves de mouche sont des insectes grégaires,
         qui s'alimentent et se développent sur des cadavres en décomposition en formant des groupes. Ces groupes, qui peuvent contenir plusieurs milliers d'individus
-        d'espèces différentes, facilitent l'alimentation des asticots et accélèrent leur développement. Dans cette étude, je me suis intéressé aux vecteurs chimiques
-        qui permettent à différentes espèces d'asticots de se regrouper. A l'aide d'expériences de choix binaires, j'ai montré que les asticots laissent des traces
-        chimiques qui retiennent à la fois leurs congénères et les individus d'autres espèces.
+        d'espèces différentes, facilitent l'alimentation des asticots et accélèrent leur développement. Dans cette étude, je me suis intéressé aux indices chimiques
+        qui permettent à différentes espèces d'asticots de se regrouper (vecteurs d'agrégation). A l'aide d'expériences de choix binaires, j'ai montré que les asticots
+        laissent des traces chimiques qui retiennent à la fois leurs congénères et les individus d'autres espèces.
         
-        L'approche de l'étude était hypothético-déductive. Le principe des expériences était de déposer un asticot au centre d'une arène circulaire
-        divisée en deux zones égales, puis d'observer ses déplacements dans chaque zone pendant cinq minutes. Plusieurs paramètres ont été mesurés (temps passé par un
-        dans une zone, distance parcourue, vitesse moyenne) puis comparés entre les zones à l'aide de tests paramétriques (test t de Student pour données appariées)
-        ou non-paramétriques (test de Wilcoxon).
+        Cette étude suivait une approche hypothético-déductive. Les analyses consistaient à comparer plusieurs mesures comportementales entre deux groupes à l'aide
+        de tests paramétriques (test t de Student pour données appariées) ou non-paramétriques (test de Wilcoxon).
         <br>
         
         ### Illustrations
         
         ![Figure 1. Exemple de trajets réalisés par des asticots dans le dispositif expérimental. A. Le trajet est représenté en rouge, la croix indique l'emplacement initial de l'asticot au moment de l'enregistrement. B. Le temps passé par l'asticot à différents endroits du dispositif est représenté par un gradient de couleur (du bleu au rouge : temps faible à élevé).](:Article_1_Figure_1.jpg){:data-align="center"}
         
-        **Figure 1.** Exemple de trajets réalisés par des asticots dans le dispositif expérimental. A. Le trajet est représenté en rouge, la croix indique l'emplacement initial de l'asticot au moment de l'enregistrement. B. Le temps passé par l'asticot à différents endroits du dispositif est représenté par un gradient de couleur (du bleu au rouge : temps faible à élevé).
+        **Figure 1.** Exemple de trajets réalisés par des asticots dans le dispositif expérimental.
         <br>
         <br>
         
-        ![Figure 2. Différence moyenne de temps passé par les larves de l'espèce Lucilia sericata (en vert) et Calliphora vomitoria (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).](:Article_1_Figure_2.jpg){:data-align="center"}
+        ![Figure 2. Différence moyenne de temps passé par les larves de l'espèce Lucilia sericata (en vert) et Calliphora vomitoria (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les barres d'erreurs représentent l'erreur standard. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).](:Article_1_Figure_2.jpg){:data-align="center"}
         
-        **Figure 2.** Différence moyenne de temps passé par les larves de l'espèce *Lucilia sericata* (en vert) et *Calliphora vomitoria* (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).
+        **Figure 2.** Différence moyenne de temps passé par les larves de l'espèce *Lucilia sericata* (en vert) et *Calliphora vomitoria* (en bleu), entre des zones contenant des traces laissées par 5 ou 40 larves de même espèce ou d'espèce différente. Les barres d'erreurs représentent l'erreur standard. Les astérisques indiquent un résultat significatif (test t de Student : *** P < 0.001).
         <br>
         
         ### Liens
