@@ -28,7 +28,7 @@ page_data:
       project_name: "Projet 1 : Manipulation et prétraitement de données"
       project_excerpt: "Ce projet visait la maîtrise des techniques de base de manipulation et de nettoyage de données."
       img: ":Projet_1_Figure_1.jpg"
-      img_title: "Diagramme UpSet représentant la nombre de valeurs manquantes dans chaque combinaison de variables."
+      img_title: "Diagramme UpSet représentant le nombre de valeurs manquantes dans chaque combinaison de variables. Les points colorés en noir indiquent dans quelle variable ou quelle combinaison de variables sont situées les valeurs manquantes."
       date: "2022-04-28"
       post: |
         ### Description
@@ -120,7 +120,7 @@ page_data:
       project_name: "Projet 3 : Statistiques"
       project_excerpt: "Ce projet traite de l'application des tests statistiques communément utilisés en analyse de données et des régréssions linéaires et logistiques."
       img: ":Projet_3_Figure_2.jpg"
-      img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat de l’examen final du MOOC et le genre des étudiants et l’IDH de leur pays d'origine (B : bas ; I : intermédiaire ; TH : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
+      img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat au MOOC et le genre et l’IDH ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
       date: "2022-07-08"
       post: |
         ### Description
@@ -173,7 +173,7 @@ page_data:
       date: "2022-09-01"
       post: |
         ### Description
-        Le but de ce projet était, d'une part, de réaliser une analyse autonome d'un jeu de données, d'autre part, de rédiger un rapport présentant
+        Le but de ce projet était d'une part de réaliser une analyse autonome d'un jeu de données, d'autre part de rédiger un rapport présentant
         les résultats les plus pertinents de l'analyse. Le rapport devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
         inclure au moins deux figures et deux tests statistiques et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
         
@@ -213,48 +213,47 @@ page_data:
     # Projet 5 : Réduction de dimensionalité et clustering
     - type: id_projet
       project_name: "Projet 5 : Réduction de dimensionalité et clustering"
-      project_excerpt: "Ce projet avait pour but d'apprendre à utiliser des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
+      project_excerpt: "Ce projet portait sur des algorithmes d'apprentissage non-supervisé : réduction de dimensionalité (ACP et ACM) et algorithmes de clustering (k-means, CAH et DBSCAN)."
       img: ":Projet_5_Figure_1.png"
-      img_title: "Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes."
+      img_title: "Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; du bleu au rouge : d'une qualité faible à élevée)."
       date: "2022-10-06"
       post: |
         ### Description
-        Le thème de ce projet est l'apprentissage non supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
+        Ce projet s'intéraissait à l'apprentissage non-supervisé. Le but était d'appliquer des techniques de réduction de dimensionalité
         telles que l'analyse en composantes principales (ACP) et l'analyse des correspondances multiples (ACM), puis des algorithmes
-        de clustering tels que le k-means, la classification ascendante hiérarchique (CAH) et le DBSCAN ("Density-Based Spatial Clustering
-        of Applications with Noise"). Les jeux de données analysés sont ceux classiquement utilisés pour apprendre ce genre d'analyse :
-        un jeu de données sur les fleurs d'iris (longueur et largeur des sépales et des pétales de trois espèces différentes d'iris) et
-        un jeu de données sur les performances d'athlètes dans les dix disciplines du décathlon. Un troisième jeu de données fictif,
-        contenant des variables qualitatives sur des profils d'une application de rencontre, a été utilisé pour réaliser l'ACM.
+        de clustering comme le k-means, la classification ascendante hiérarchique (CAH) et le DBSCAN. Les jeux de données analysés sont
+        ceux classiquement utilisés pour ce genre d'analyse : un jeu de données sur les fleurs d'iris (longueur et largeur des
+        sépales et des pétales de trois espèces différentes d'iris) et un autre sur les performances d'athlètes dans les dix disciplines
+        du décathlon. Un troisième jeu de données fictif, contenant des variables qualitatives sur des profils d'une application de rencontre,
+        a été utilisé pour réaliser l'ACM.
 
-        J'ai réalisé chacune de ces analyses dans un notebook en Python, qui contient également quelques explications théoriques sur le
-        fonctionnement des techniques et algorithmes utilisés. J'ai illustré les résultats à l'aide de différents graphiques tels qu'un
-        cercle des corrélations pour l'ACP (Figure 1), une analyse des silouhette pour le k-means (Figure 2) et un dendrogramme pour la
-        CAH (Figure 3).
+        Les analyses sont détaillées dans le notebook, qui contient également des explications théoriques sur le fonctionnement des techniques
+        et algorithmes utilisés. J'ai illustré les résultats à l'aide de différents graphiques, comme par exemple un cercle des corrélations
+        pour l'ACP (Figure 1), une analyse des silhouette pour le k-means (Figure 2) et un dendrogramme pour la CAH (Figure 3).
         <br>
         
         ### Illustrations
         
-        ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; bleu : cosinus faible ; rouge : cosinus élevé).](:Projet_5_Figure_1.png){:data-align="center"}
+        ![Figure 1. Cercle des corrélations d'une ACP sur le jeu de donnés iris. Les flèches représentent les variables analysées, les axes les deux premières composantes de l'ACP, et le gradient de couleur la qualité de la représentation de chaque variable (mesurée par le cosinus carré ; du bleu au rouge : d'une qualité faible à élevée).](:Projet_5_Figure_1.png){:data-align="center"}
         
         **Figure 1.** Cercle des corrélations d'une ACP sur le jeu de donnés iris. Le gradient de couleur indique la qualité de la représentation de chaque variable sur les deux premières composantes.
         <br>
         <br>
         
-        ![Figure 2. Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris. Le diagramme de gauche représente le coefficient de silhouette de chaque individu dans chaque cluster. Le diagramme de droite représente la position des individus sur les deux premières composantes de l'ACP, à partir desquels le clustering a été réalisé.](:Projet_5_Figure_2.png){:data-align="center"}
+        ![Figure 2. Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris. Le diagramme de gauche représente le coefficient de silhouette de chaque individu dans chaque cluster. Le diagramme de droite représente la position des individus sur les deux premières composantes de l'ACP, les lesquelles le clustering a été réalisé.](:Projet_5_Figure_2.png){:data-align="center"}
         
         **Figure 2.** Analyse des silhouettes d'un clustering par k-means à trois clusters sur le jeu de donnés iris.
         <br>
         <br>
         
-        ![Figure 3. Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon. Les feuilles de l'arbre représentent les athlètes, qui sont répartis dans quatre clusters de différentes couleurs. Ces clusters ont été définis en fixant le seuil de dissimilarité à 3.02.](:Projet_5_Figure_3.png){:data-align="center"}
+        ![Figure 3. Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon. Les feuilles de l'arbre représentent les athlètes, répartis dans quatre clusters représentés par des couleurs. Ces clusters ont été définis en fixant le seuil de dissimilarité à 3.02.](:Projet_5_Figure_3.png){:data-align="center"}
         
         **Figure 3.** Dendrogramme issu d'une CAH sur le jeu de donnés de décathlon.
         <br>
         
         ### Compétences
         - Réaliser une analyse multivariée de variables continues (ACP) ou catégorielles (ACM)
-        - Appliquer une méthode d’apprentissage non supervisé pour partitionner des données (k-means, CAH)
+        - Appliquer une méthode d’apprentissage non-supervisé pour partitionner des données (k-means, CAH, DBSCAN)
         <br>
         
         ### Lien
