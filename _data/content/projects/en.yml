@@ -429,29 +429,29 @@ page_data:
       project_name: "Publication dans Journal of Experimental Biology (2021)"
       project_excerpt: "J'ai publié cet article en premier auteur dans la revue Journal of Experimental Biology. L'étude portait sur les dynamiques de décisions collectives chez les asticots nécrophages."
       img: ":Article_3_Figure_1.png"
-      img_title: "Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes."
+      img_title: "Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Zoom sur l'une des expériences présentées en A. C. Illustration d'un déplacement collectif d'un spot à l'autre en 24 minutes."
       date: "2021-02-03"
       post: |
         ### Description
         Cet article est intitulé "Effect of density and species preferences on collective choices: an experimental study on maggot aggregation behaviours". Dans cette
-        étude, je me suis intéressé aux décisions collectives chez les asticots nécrophages, plus précisément sur les variations des préférences alimentaires en
-        fonction du nombre d'asticots et du nombre d'espèces. J'ai d'abord réalisé des expériences de suivi du développement des asticots sur de la nourriture (foie de
-        boeuf) fraîche ou décomposée, en groupes de différentes tailles et composés d'une ou deux espèces, puis j'ai observé leur comportement dans un dispositif
+        étude, je me suis intéressé aux décisions collectives chez les asticots nécrophages et à leurs variations en fonction du nombre d'asticots et du nombre
+        d'espèces. J'ai d'abord réalisé des expériences de suivi du développement des asticots sur de la nourriture fraîche ou décomposée (du foie de boeuf), en groupes
+        de différentes tailles et composés d'une ou deux espèces. J'ai ensuite observé le comportement des asticots dans un dispositif
         offrant le choix entre ces deux types de nourriture. Les résultats ont montré que les asticots choisissent le plus souvent de s'alimenter sur de la nourriture
-        fraîche, qui est celle sur laquelle ils se développent le mieux. Ils font cependant le choix inverse lorsque deux espèces d'asticots sont mélangés, ce qui peut
-        s'expliquer par le fait que l'association des deux espèces offre un bénéfice en leur permettant de mieux se développer.
+        fraîche, qui est celle sur laquelle ils se développent le mieux. Ils font cependant le choix inverse lorsque deux espèces d'asticots sont mélangées, ce qui peut
+        s'expliquer par le fait que l'association entre les deux espèces permet aux asticots de mieux se développer.
         
-        Les analyses statistiques des expériences de développement ont consisté à comparer des métriques (taux d'émergence des mouches et masse moyenne) entre plusieurs
+        L'analyse des expériences de développement a consisté à comparer des métriques (taux d'émergence des mouches et masse moyenne) entre plusieurs
         groupes avec des tests de Kruskall-Wallis et de Mann-Whitney. Dans les expériences comportementales, pour déterminer le choix des asticots pour un spot de
-        nourriture, le nombre d'individus sur chacun des spots était comparé en utilisant un test binomial. Ce même test était ensuite utilisé pour déterminer si le
-        choix d'un spot était plus fréquent que ce qui était attendu si les asticots se comportaient de manière aléatoire.
+        nourriture, le nombre d'individus sur chacun des spots était comparé en utilisant un test binomial. Ce même test était ensuite utilisé pour déterminer si
+        un spot était plus fréquemment choisi qu'un autre.
         <br>
         
         ### Illustrations
         
-        ![Figure 1. Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes.](:Article_3_Figure_1.png){:data-align="center"}
+        ![Figure 1. Évolution temporelle du pourcentage de larves Lucilia sericata sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Zoom sur l'une des expériences présentées en A. C. Illustration d'un déplacement collectif d'un spot à l'autre en 24 minutes.](:Article_3_Figure_1.png){:data-align="center"}
         
-        **Figure 1.** Évolution temporelle du pourcentage de larves *Lucilia sericata* sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Un réplicat de ces expériences. C. Illustration d'un déplacement collectif d'un spot à l'autre en l'espace de 24 minutes.
+        **Figure 1.** Évolution temporelle du pourcentage de larves *Lucilia sericata* sur des spots de nourriture fraîche ou décomposée. A. Expériences utilisant 40 larves (10 réplicats). B. Zoom sur l'une des expériences présentées en A. C. Illustration d'un déplacement collectif d'un spot à l'autre en 24 minutes.
         <br>
         <br>
         
@@ -468,23 +468,23 @@ page_data:
     # Publication dans Ecological Entomology (2022)
     - type: id_publication
       project_name: "Publication dans Ecological Entomology (2022)"
-      project_excerpt: "J'ai publié cet article en second auteur dans le journal Ecological Entomology, sur le thème de la construction de niche développementale chez les asticots nécrophages."
+      project_excerpt: "J'ai publié cet article en deuxième auteur dans le journal Ecological Entomology, sur la construction de niche développementale chez les asticots nécrophages."
       img: ":Article_4_Figure_2.png"
-      img_title: "Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue)."
+      img_title: "Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes orange clair ou foncé) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue)."
       date: "2022-01-21"
       post: |
         ### Description
         Cet article est intitulé "Developmental niche construction in necrophagous larval societies: feeding facilitation can offset the costs of low ambient temperature".
-        Il traite du concept de construction de niche de développement, appliqué aux asticots nécrophages. Ce concept désigne la modification du développement
+        Il traite de la construction de niche de développement chez les asticots nécrophages. Ce concept désigne la modification du développement
         d'organismes du fait de l'action de ces derniers sur leur environnement. Chez les asticots, la formation de groupes de forte densité entraîne une
-        modification du milieu de vie (augmentation de la température ambiante, liquéfaction des tissus cadavériques, régulation de la flore microbienne) qui améliore en
-        retour le développement des asticots, ce qui est une forme de construction de niche. Dans cette étude, les conséquences du regroupement des asticots et de la
-        construction de niche qui en résulte ont été étudiées dans des conditions initialement défavorables aux asticots (faible température). Les résultats ont montré
-        que les bénéfices développementaux générés par le regroupement permettaient de compenser les coûts liés à la faible température ambiante.
+        modification du milieu de vie (augmentation de la température ambiante, liquéfaction des tissus cadavériques, régulation de la flore microbienne) ; cette
+        modification améliore en retour le développement des asticots, ce qui correspond à une construction de niche. Dans cette étude, les conséquences du regroupement
+        des asticots et de la construction de niche qui en résulte ont été étudiées dans des conditions initialement défavorables aux asticots (faible température).
+        Les résultats ont montré que les bénéfices développementaux générés par la construction de niche permettaient de compenser les coûts liés à la faible
+        température ambiante.
         
-        Dans cette étude, mon rôle a été d'analyser et d'interpréter des données collectées par un autre chercheur. Les analyses effectuées étaient des comparaisons
-        de moyennes de plusieurs paramètres développementaux (survie, taille, durée de développement) entre différents groupes, à l'aide de tests de Student et de
-        Mann-Whitney.
+        Dans cette étude, mon rôle a été d'analyser et d'interpréter des données collectées antérieurement. Plusieurs mesures développementales
+        ont été comparées entre différents groupes, à l'aide de tests de Student et de Mann-Whitney.
         <br>
         
         ### Illustrations
@@ -495,9 +495,9 @@ page_data:
         <br>
         <br>
         
-        ![Figure 2. Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).](:Article_4_Figure_2.png){:data-align="center"}
+        ![Figure 2. Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes orange clair ou foncé) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).](:Article_4_Figure_2.png){:data-align="center"}
         
-        **Figure 2.** Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes oranges) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).
+        **Figure 2.** Évolution temporelle du pourcentage moyen d'asticots passant au stade de développement post-alimentaire. Les barres d'erreurs représentent l'erreur standard. Les groupes testés sont 40 larves à 33°C (courbe noire), 40 ou 80 larves dans un gradient thermique (courbes orange clair ou foncé) et 40 larves dans un gradient thermique dans lequel 40 larves captives supplémentaires étaient placées à 22°C (courbe bleue).
         <br>
         
         ### Liens
@@ -508,19 +508,20 @@ page_data:
     # Publication dans Medical and Veterinary Entomology (2022)
     - type: id_publication
       project_name: "Publication dans Medical and Veterinary Entomology (2022)"
-      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Medical and Veterinary Entomology. Il traite de l'effet comportemental de composés chimiques sécrétés par les asticots nécrophages."
+      project_excerpt: "J'ai publié cet article en premier auteur dans le journal Medical and Veterinary Entomology. Il traite de l'identification des composés chimiques agissant comme vecteurs d'agrégation chez les asticots nécrophages."
       img: ":Article_5_Figure_1.png"
       img_title: "Chromatogramme d'extraits chimiques issus d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants."
       date: "2022-09-19"
       post: |
         ### Description
         Cet article, intitulé "Synomones in necrophagous larvae of the blow flies *Lucilia sericata* and *Calliphora vomitoria*", aborde la question de la nature des
-        médiateurs chimiques intervenant dans les interactions entre espèces d'asticots nécrophages. Le but de l'étude était d'extraire et d'identifier les composés
-        chimiques communs aux deux espèces étudiées, puis de tester l'effet de ces composés sur le comportement des asticots, afin de déterminer quels composés sont
-        impliqués dans la formation des groupes inter-espèces. Les résultats ont montré des effets divergents selon l'espèce étudiée et la nature du composé.
+        médiateurs chimiques intervenant dans l'agrégation entre espèces chez les asticots nécrophages. Le but de l'étude était d'extraire et d'identifier les composés
+        communs à deux espèces connues pour s'agréger ensemble, puis de tester l'effet de ces composés sur le comportement des asticots. Cette méthode devait permettre
+        d'identifier les composés impliqués dans la formation des groupes inter-espèces. Les résultats ont permis d'identifier six composés communs, dont trois ont pu
+        être testés comportementalement. Les résultats de ces tests ont montré des effets divergents selon l'espèce et la nature du composé.
         
         Mon rôle dans cette étude a été de réaliser les extractions chimiques d'asticots, qui étaient ensuite analysées dans un autre laboratoire, puis de mettre en place
-        les expériences comportementales et d'en analyser les résultats. Comme dans les précédentes études, le but des analyses statistiques était de comparer différentes
+        les expériences comportementales et d'en analyser les résultats. Comme dans les précédentes études, le but des analyses était de comparer différentes
         mesures comportementales entre différents groupes avec des tests de comparaison de moyennes (test t de Student pour données appariées et test de Wilcoxon).
         <br>
         
@@ -545,16 +546,16 @@ page_data:
     # Thèse (2017-2020)
     - type: id_these
       project_name: "Thèse (2017-2020)"
-      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale, et l'ai soutenue le 27 novembre 2020. Dans cette thèse, j'ai étudié les regroupements entre espèces et les comportements collectifs chez les asticots nécrophages."
+      project_excerpt: "J'ai réalisé ma thèse de doctorat à l'Université de Lille, dans l'Unité de Taphonomie Médico-Légale, et l'ai soutenue le 27 novembre 2020. Dans cette thèse, j'ai étudié les regroupements entre espèces et les comportements collectifs chez les asticots nécrophages. Cette thèse m'a permis de publier les cinq articles présentés dans ce portfolio."
       img: ":These_couverture.jpg"
       img_title: "Page de couverture"
       date: "2020-11-27"
       post: |
         ### Description
-        Le titre de la thèse est "Mécanismes, bénéfices et plasticité de l'agrégation interspécifique chez les larves de Diptères nécrophages". La thèse est divisée en trois
+        Le titre de ma thèse est "Mécanismes, bénéfices et plasticité de l'agrégation interspécifique chez les larves de Diptères nécrophages". Cette thèse est divisée en trois
         blocs, qui correspondent à l'étude de trois aspects différents des regroupements d'espèces d'asticots. Le premier bloc porte sur les mécanismes de la formation des
         groupes, et plus particulièrement sur l'effet comportemental des composés chimiques laissés par les asticots. Le second bloc traite des coûts et bénéfices de ces
-        groupes sur le développement des asticots. Le dernier bloc s'intéresse à la plasticité comportementale, c'est-à-dire aux variations du comportement d'agrégation des
+        groupes sur le développement des asticots. Le dernier bloc porte sur la plasticité comportementale, qui désigne les variations du comportement d'agrégation des
         asticots en fonction des conditions de l'environnement. L'ensemble des études et des analyses réalisées dans cette thèse sont rapportées dans les cinq publications
         présentées plus haut.
         <br>
