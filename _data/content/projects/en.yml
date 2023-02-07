@@ -335,14 +335,14 @@ page_data:
       date: "2022-12-04"
       post: |
         ### Description
-        La focale de ce projet était la Business Intelligence et la création d'un tableau de bord sur le logiciel Power BI.
+        Le but de ce projet était de découvrir la Business Intelligence à travers la création d'un tableau de bord avec le logiciel Microsoft Power BI.
         Le jeu de données traité était une base de ressources humaines d'une entreprise fictive, qui décrivait la situation de chaque
         salarié (e.g. poste occupé, ancienneté, salaire).
 
-        Le tableau de bord que j'ai créé était orienté sur l'analyse de la parité hommes-femmes au sein de l'entreprise (Figure 1). Il permettait
-        notamment, grâce à des éléments interactifs, d'identifier les secteurs et le type de poste où la parité n'était pas respectée,
-        d'évaluer l'égalité salariale et de comparer l'évolution des salaires avec l'ancienneté. Ce tableau de bord a fait l'objet d'une
-        présentation orale devant les autres étudiants de la formation.
+        J'ai créé un tableau de bord visant à analyser la parité hommes-femmes au sein de l'entreprise (Figure 1). Ce tableau de bord comportait
+        des éléments interactifs qui permettaient, entre autres, d'identifier les secteurs et le type de poste où la parité n'était pas respectée,
+        d'évaluer l'égalité salariale et de comparer l'évolution des salaires avec l'ancienneté. J'ai présenté oralement ce tableau de bord 
+        aux autres étudiants de la formation.
         <br>
         
         ### Tableau de bord
@@ -354,7 +354,8 @@ page_data:
         
         ### Compétences
         - Concevoir le cahier des charges d’un tableau de bord
-        - Maîtriser les différentes fonctionnalités de Power BI pour pouvoir mettre en place un tableau de bord
+        - Maîtriser les différentes fonctionnalités de Power BI pour mettre en place un tableau de bord
+        - Utiliser un tableau de bord comme support pour communiquer les résutats d'une analyse
         <br>
         
         ### Lien
