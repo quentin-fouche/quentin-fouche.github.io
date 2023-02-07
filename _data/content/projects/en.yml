@@ -167,23 +167,23 @@ page_data:
     # Projet 4 : Analyse autonome d'un jeu de données
     - type: id_projet
       project_name: "Projet 4 : Analyse autonome d'un jeu de données"
-      project_excerpt: "Ce projet consistait à analyser en autonomie une base contenant les métadonnées des références bibliographiques citées dans des thèses de science. Cette analyse devait déboucher sur la rédaction d'un rapport au format IMRAD."
+      project_excerpt: "Ce projet consistait à analyser en autonomie les métadonnées de références bibliographiques citées dans des thèses. Les résultats devaient être présentées dans un rapport au format IMRAD."
       img: ":Projet_4_Figure_2.jpg"
       img_title: "Pourcentage moyen de références citées par thèse en fonction de la discipline et du type de référence."
       date: "2022-09-01"
       post: |
         ### Description
         Le but de ce projet était, d'une part, de réaliser une analyse autonome d'un jeu de données, d'autre part, de rédiger un rapport présentant
-        les résultats les plus pertinents de l'analyse. Le rapport devait devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
+        les résultats les plus pertinents de l'analyse. Le rapport devait préciser le type d'approche, les problématiques et les hypothèses à étudier,
         inclure au moins deux figures et deux tests statistiques et suivre la structure IMRAD (Introduction, Méthodes, Résultats et Discussion).
         
         Le jeu de données contenait les métadonnées des références bibliographiques citées dans 22 889 thèses électroniques, présentes sur le site d'archive ouverte HAL.
-        Ma problématique était la suivante : comment le nombre et le type de références citées par thèse varient-ils en fonction de la discipline de la thèse ?
+        La problématique était la suivante : comment le nombre et le type de références citées par thèse varient-ils en fonction de la discipline de la thèse ?
         
-        Pour répondre à cette question, j'ai d'abord réalisé une étude des données manquantes puis des analyses statistiques incluant des tests de Kruskall-Wallis,
-        des régressions linéaires et des tests de corrélation de Pearson. Les deux principaux résultats sont illustrés dans les deux figures ci-dessous : (1) les doctorants
-        de sciences humaines et sociales (disciplines I à IV) ont cité plus de références que ceux des sciences dures (disciplines V à X) (Figure 1), et (2) les citations
-        d’articles scientifiques sont proportionnellement plus nombreuses en sciences dures qu’en SHS, contrairement aux citations de livres et chapitres de livres (Figure 2).
+        Les analyses réalisées comportent une étude des données manquantes, des tests de Kruskall-Wallis, des régressions linéaires et des tests de corrélation.
+        Les deux principaux résultats sont illustrés dans les figures ci-dessous : (1) les doctorants de sciences humaines et sociales (disciplines I à IV) ont cité
+        plus de références que ceux des sciences dures (disciplines V à X) (Figure 1) ; (2) les articles scientifiques sont proportionnellement plus cités
+        en sciences dures qu’en SHS, contrairement aux livres et chapitres de livres (Figure 2).
         <br>
         
         ### Illustrations
@@ -200,8 +200,8 @@ page_data:
         <br>
         
         ### Compétences
-        - Explorer un jeu de données en autonomie pour mettre en oeuvre les différentes techniques maîtrisées
-        - Structurer de manière logique la restitution des résultats des analyses
+        - Explorer un jeu de données en autonomie pour mettre en oeuvre les techniques de base de l'analyse de données
+        - Structurer de manière logique la restitution des résultats
         - Produire un document en Latex
         <br>
         
