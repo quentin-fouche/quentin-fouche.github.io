@@ -339,7 +339,7 @@ page_data:
         Le jeu de données traité était une base de ressources humaines d'une entreprise fictive, qui décrivait la situation de chaque
         salarié (e.g. poste occupé, ancienneté, salaire).
 
-        J'ai créé un tableau de bord visant à analyser la parité hommes-femmes au sein de l'entreprise (Figure 1). Ce tableau de bord comportait
+        J'ai créé un tableau de bord visant à analyser la parité hommes-femmes au sein de l'entreprise (Figure&nbsp;1). Ce tableau de bord comportait
         des éléments interactifs qui permettaient, entre autres, d'identifier les secteurs et le type de poste où la parité n'était pas respectée,
         d'évaluer l'égalité salariale et de comparer l'évolution des salaires avec l'ancienneté. J'ai présenté oralement ce tableau de bord 
         aux autres étudiants de la formation.
@@ -517,8 +517,8 @@ page_data:
         Cet article, intitulé "Synomones in necrophagous larvae of the blow flies *Lucilia sericata* and *Calliphora vomitoria*", aborde la question de la nature des
         médiateurs chimiques intervenant dans l'agrégation entre espèces chez les asticots nécrophages. Le but de l'étude était d'extraire et d'identifier les composés
         communs à deux espèces connues pour s'agréger ensemble, puis de tester l'effet de ces composés sur le comportement des asticots. Cette méthode devait permettre
-        d'identifier les composés impliqués dans la formation des groupes inter-espèces. Les résultats ont permis d'identifier six composés communs, dont trois ont pu
-        être testés comportementalement. Les résultats de ces tests ont montré des effets divergents selon l'espèce et la nature du composé.
+        d'identifier les composés impliqués dans la formation des groupes inter-espèces. Les résultats ont permis d'identifier six composés communs, dont trois ont été
+        testés sur le comportement des asticots. Les résultats de ces tests ont montré des effets divergents selon l'espèce et la nature du composé.
         
         Mon rôle dans cette étude a été de réaliser les extractions chimiques d'asticots, qui étaient ensuite analysées dans un autre laboratoire, puis de mettre en place
         les expériences comportementales et d'en analyser les résultats. Comme dans les précédentes études, le but des analyses était de comparer différentes
@@ -527,9 +527,9 @@ page_data:
         
         ### Illustrations
         
-        ![Figure 1. Chromatogramme d'extraits chimiques issus d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.](:Article_5_Figure_1.png){:data-align="center"}
+        ![Figure 1. Chromatogramme d'extraits chimiques issus d'asticots Lucilia sericata (en rouge) et Calliphora vomitoria (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres "a" à "f" représentent les composés communs aux deux espèces. La lettre "x" indique des composés contaminants.](:Article_5_Figure_1.png){:data-align="center"}
         
-        **Figure 1.** Chromatogramme d'extraits chimiques issus d'asticots *Lucilia sericata* (en rouge) et *Calliphora vomitoria* (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres a à f représentent les composés communs aux deux espèces. La lettre x indique des composés contaminants.
+        **Figure 1.** Chromatogramme d'extraits chimiques issus d'asticots *Lucilia sericata* (en rouge) et *Calliphora vomitoria* (en bleu) et d'un échantillon utilisé comme témoin négatif (en noir). Les lettres "a" à "f" représentent les composés communs aux deux espèces. La lettre "x" indique des composés contaminants.
         <br>
         <br>
         
