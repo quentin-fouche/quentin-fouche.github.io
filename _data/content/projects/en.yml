@@ -120,7 +120,7 @@ page_data:
       project_name: "Projet 3 : Statistiques"
       project_excerpt: "Ce projet traite de l'application des tests statistiques communément utilisés en analyse de données et des régréssions linéaires et logistiques."
       img: ":Projet_3_Figure_2.jpg"
-      img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat au MOOC et le genre et l’IDH ("B" : bas ; "I" : intermédiaire ; "TH" : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
+      img_title: "Odds-ratios (± IC95) issus d'une régression logistique entre le résultat au MOOC et le genre et l’IDH (\"B\" : bas ; \"I\" : intermédiaire ; \"TH\" : très élevé). Les modalités Hommes et IDH Bas sont utilisées comme références."
       date: "2022-07-08"
       post: |
         ### Description
